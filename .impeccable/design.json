@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-22T21:36:00Z",
+  "title": "Design System: Smakota · Obiady Domowe",
+  "extensions": {
+    "colorMeta": {
+      "paprika-terracotta": {
+        "role": "primary",
+        "displayName": "Paprika Terracotta",
+        "canonical": "#AE2C12",
+        "tonalRamp": ["#3A0B03", "#581306", "#761B0A", "#8F220C", "#AE2C12", "#D14A2B", "#F26846", "#FCE5DF"]
+      },
+      "borscht-mahogany": {
+        "role": "primary",
+        "displayName": "Borscht Mahogany",
+        "canonical": "#5E1914",
+        "tonalRamp": ["#240705", "#3E0F0B", "#5E1914", "#721E18", "#8F2C24", "#B54A40", "#DCA19A", "#F9EAE8"]
+      },
+      "cast-iron-stamp": {
+        "role": "neutral",
+        "displayName": "Cast-Iron Stamp",
+        "canonical": "#161110",
+        "tonalRamp": ["#161110", "#261C1A", "#3B2D2A", "#54332A", "#69443A", "#9C7B70", "#DEC8AE", "#F6EFE6"]
+      },
+      "rolling-pin-dough": {
+        "role": "secondary",
+        "displayName": "Rolling-Pin Dough",
+        "canonical": "#E5D1B5",
+        "tonalRamp": ["#4A3720", "#6B5132", "#8E6D47", "#B39068", "#CFB28E", "#E5D1B5", "#F6EFE6", "#FFFDFB"]
+      },
+      "menu-sheet-paper": {
+        "role": "neutral",
+        "displayName": "Menu Sheet Paper",
+        "canonical": "#FFFDFB",
+        "tonalRamp": ["#54332A", "#69443A", "#9E8276", "#C8AD8D", "#DEC8AE", "#EAD9C3", "#F6EFE6", "#FFFDFB"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Folk Display Serif (Yeseva One)", "purpose": "Hero headlines and dish banner titles." },
+      "headline": { "displayName": "Category Stamp Display (Rubik 900)", "purpose": "Uppercase black-and-terracotta category stamps and rolling-pin wordmark." },
+      "title": { "displayName": "Dish Card Title (Yeseva One)", "purpose": "Dish names on catalog cards and modals." },
+      "body": { "displayName": "Bilingual Body Sans (Onest)", "purpose": "Polish and Ukrainian descriptions, ingredients, and checkout copy." },
+      "label": { "displayName": "Control & Pill Label (Rubik 800)", "purpose": "Category tabs, branch pills, and price badges." }
+    },
+    "shadows": [
+      { "name": "shadow-soft", "value": "0 14px 32px -10px rgba(62, 18, 13, 0.13)", "purpose": "Warm mahogany offset shadow for the Lunch 33 zł configurator and table-tent card." },
+      { "name": "shadow-elevated", "value": "0 20px 44px -12px rgba(54, 14, 10, 0.20)", "purpose": "Elevated focal shadow for hero dish showcase, cart drawer, and modal dialogs." }
+    ],
+    "motion": [
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Responsive exponential ease-out for card hover lift, drawer transitions, and filter switches." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "860px" },
+      { "name": "lg", "value": "1040px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Order Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary pill CTA for menu navigation, adding Lunch 33 zł, and submitting orders.",
+      "html": "<button class=\"ds-btn-primary\">Dodaj do koszyka · 22 zł</button>",
+      "css": ".ds-btn-primary { background: #AE2C12; color: #FFFDFB; padding: 14px 24px; border-radius: 999px; font-family: 'Onest', sans-serif; font-weight: 800; font-size: 0.95rem; border: none; cursor: pointer; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-primary:hover { background: #8F220C; transform: translateY(-2px); } .ds-btn-primary:focus-visible { outline: 2.5px solid #AE2C12; outline-offset: 3px; }"
+    },
+    {
+      "name": "Direct Branch Call Button",
+      "kind": "button",
+      "refersTo": "button-call",
+      "description": "Borscht-mahogany direct telephone CTA linking to the active branch phone number.",
+      "html": "<a href=\"tel:+48576113316\" class=\"ds-btn-call\">Zadzwoń: +48 576 113 316</a>",
+      "css": ".ds-btn-call { display: inline-flex; align-items: center; gap: 8px; background: #5E1914; color: #FDF7F0; padding: 14px 22px; border-radius: 999px; font-family: 'Onest', sans-serif; font-weight: 800; font-size: 0.95rem; text-decoration: none; font-variant-numeric: tabular-nums; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-call:hover { background: #721E18; transform: translateY(-2px); }"
+    },
+    {
+      "name": "Category Stamp Heading",
+      "kind": "custom",
+      "refersTo": "category-stamp",
+      "description": "Pitch-espresso rectangular stamp block with bold uppercase terracotta lettering from the physical printed menu.",
+      "html": "<span class=\"ds-stamp-heading\">PIEROGI</span>",
+      "css": ".ds-stamp-heading { display: inline-flex; align-items: center; background: #161110; color: #F26846; font-family: 'Rubik', sans-serif; font-weight: 900; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 0.02em; padding: 8px 18px; border-radius: 6px; line-height: 1.05; }"
+    },
+    {
+      "name": "Menu Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Bilingual search field for filtering Polish and Ukrainian dish names.",
+      "html": "<input type=\"search\" class=\"ds-input-search\" placeholder=\"Szukaj dania (np. barszcz, pierogi, czeburek...)\" />",
+      "css": ".ds-input-search { width: 100%; max-width: 360px; padding: 10px 16px; border-radius: 999px; border: 1px solid #C8AD8D; background: #FFFFFF; color: #21110E; font-family: 'Onest', sans-serif; font-size: 0.92rem; } .ds-input-search:focus-visible { outline: 2.5px solid #AE2C12; outline-offset: 2px; }"
+    },
+    {
+      "name": "Dish Variant Chip",
+      "kind": "chip",
+      "refersTo": "chip-variant",
+      "description": "Size and weight selector chip for M/XL czebureki and 500g/1000g pielmieni platters.",
+      "html": "<button class=\"ds-chip-variant\">Rozmiar XL · 21 zł</button>",
+      "css": ".ds-chip-variant { padding: 6px 12px; border-radius: 10px; background: #5E1914; border: 1px solid #5E1914; color: #FDF7F0; font-family: 'Onest', sans-serif; font-size: 0.8rem; font-weight: 700; cursor: pointer; }"
+    },
+    {
+      "name": "Smakota Dish Card",
+      "kind": "card",
+      "refersTo": "dish-card",
+      "description": "Bilingual catalog dish card with stamp badge, source verification pill, tabular PLN price, and cart trigger.",
+      "html": "<article class=\"ds-dish-card\"><div class=\"ds-dish-top\"><span class=\"ds-mini-stamp\">ZUPA</span><span class=\"ds-source-ok\">Karta menu lokalu</span></div><div class=\"ds-dish-row\"><h3 class=\"ds-dish-title\">Barszcz ukraiński</h3><span class=\"ds-dish-price\">20 zł</span></div><p class=\"ds-dish-desc\">Tradycyjny gęsty barszcz ukraiński z burakami, fasolą, świeżym koperkiem i śmietaną.</p></article>",
+      "css": ".ds-dish-card { background: #FFFFFF; border: 1px solid #DEC8AE; border-radius: 14px; padding: 16px 18px; max-width: 340px; font-family: 'Onest', sans-serif; transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s; } .ds-dish-card:hover { transform: translateY(-3px); border-color: #AE2C12; } .ds-dish-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; } .ds-mini-stamp { background: #161110; color: #F26846; font-family: 'Rubik', sans-serif; font-weight: 900; font-size: 0.72rem; padding: 3px 9px; border-radius: 4px; } .ds-source-ok { background: #E6F2E8; color: #1E5227; font-size: 0.73rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; } .ds-dish-row { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 6px; } .ds-dish-title { font-family: 'Yeseva One', serif; font-size: 1.15rem; color: #5E1813; margin: 0; } .ds-dish-price { font-family: 'Rubik', sans-serif; font-weight: 900; font-size: 1.2rem; color: #AE2C12; font-variant-numeric: tabular-nums; } .ds-dish-desc { font-size: 0.86rem; color: #54332A; margin: 0; line-height: 1.45; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Rolling-Pin Menu Board & Folk Dish Banner",
+    "overview": "Smakota's visual language translates the physical artifact of its Warsaw bistro menu, its table-tent review cards, and its 21 branded dish photographs directly into an interactive bilingual (Polish and Ukrainian) storefront. Every section is anchored by tactile culinary artifacts: the wooden rolling-pin emblem (SMAKOTA menu), pitch-espresso category stamp blocks (ZUPA, PIEROGI, PIELMIENI, CZEBUREKI, CHINKALI), deep borscht-mahogany header bars with folk three-petal flourishes, and subtle hand-drawn pierogi watermarks.",
+    "keyCharacteristics": [
+      "Physical Menu Continuity: Category headers replicate the black rectangular stamp blocks with condensed paprika-terracotta display lettering from the printed menu sheet.",
+      "Borscht & Flour Warmth: Crisp menu-sheet paper (#FFFDFB) and warm dough containers (#F6EFE6, #E5D1B5) contrast with deep borscht mahogany (#5E1914) and cast-iron stamp blocks (#161110).",
+      "Honest Culinary Photography: Uses only the 21 real dish photos provided by the restaurant; dishes without separate photos use the authentic printed-menu sheet layout with category stamp badges instead of stock substitutes.",
+      "Tabular Price Precision: Every PLN (zł) price, phone number, and cart badge uses tabular-nums for instant lunchtime scanning."
+    ],
+    "rules": [
+      { "name": "The Zero-Gray Rule", "body": "Secondary text, muted labels, and borders are always tinted from warm mahogany (#54332A, #69443A) or dough (#DEC8AE), never neutral gray.", "section": "colors" },
+      { "name": "The Stamp Contrast Rule", "body": "All category stamp blocks (#161110) use high-luminance paprika-orange (#F26846) to preserve the printed menu's signature look while exceeding 4.5:1 WCAG AA contrast.", "section": "colors" },
+      { "name": "The No-Kicker Rule", "body": "Headings stand on their own authority or wear the black-and-terracotta stamp block directly; never place a small eyebrow label above a heading.", "section": "typography" },
+      { "name": "The Single-Elevation Rule", "body": "Declare elevation once per container: either a 1px warm border or a soft shadow, never both on the same card.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use the black-and-terracotta stamp blocks (#161110 background, #F26846 Rubik 900 uppercase text) for all menu category headings.",
+      "Do preserve stateful bilingual switching between Polski (PL) and Українська (UA) without resetting the visitor's active branch or cart.",
+      "Do use only real client photography from img/ and transparently mark items whose prices come from online delivery profiles or await owner confirmation."
+    ],
+    "donts": [
+      "Don't generate or insert stock food photography for dishes that lack an individual photo file; render those dishes in the authentic printed-menu sheet card style.",
+      "Don't place kickers or eyebrows above headings, or combine a 1px border with a wide drop shadow on the same card.",
+      "Don't enable online ordering on unconfirmed/upcoming branches (Lokal #2 — Wkrótce) or dishes marked Cena do potwierdzenia."
+    ]
+  }
+}
+

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smakota · Obiady Domowe Warszawa | Prawdziwa ukraińska kuchnia domowa</title>
+  <meta name="description" content="Smakota: Prawdziwa ukraińska kuchnia domowa w Warszawie (ul. S. Wojciechowskiego 33, Ursus). Pierogi, pielmieni, czebureki, chinkali, barszcz ukraiński oraz Lunch Dnia za 33 zł." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Onest:wght@400;500;600;700;800&family=Yeseva+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Main Sticky Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-lockup">
+        <img src="img/smakota-logo.png" alt="Logo Smakota" class="brand-logo-img" width="56" height="42" />
+        <div class="brand-text-wrap">
+          <span class="brand-title">SMAKOTA</span>
+          <span class="brand-subtitle" data-i18n="brandSubtitle">OBIADY DOMOWE</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Główna nawigacja">
+        <a href="index.html" class="nav-link active" data-i18n="navHome">Strona główna</a>
+        <a href="menu.html" class="nav-link" data-i18n="navMenu">Menu i Lunch</a>
+        <a href="about.html" class="nav-link" data-i18n="navAbout">O nas i Dla budów</a>
+        <a href="locations.html" class="nav-link" data-i18n="navLocations">Lokale i Dostawa</a>
+        <a href="contact.html" class="nav-link" data-i18n="navContact">Kontakt</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switcher" role="group" aria-label="Wybór języka">
+          <button type="button" class="lang-btn active" data-lang="pl">PL</button>
+          <button type="button" class="lang-btn" data-lang="uk">UA</button>
+        </div>
+
+        <a href="tel:+48576113316" class="header-call-btn phone-link" id="headerPhoneLink">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span id="headerPhoneText">+48 576 113 316</span>
+        </a>
+
+        <button type="button" class="header-cart-btn" id="openCartBtn" aria-label="Otwórz koszyk">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+          <span data-i18n="cartBtnLabel">Koszyk</span>
+          <span class="cart-badge tabular-nums" id="headerCartCount">0</span>
+        </button>
+
+        <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu" aria-expanded="false" aria-controls="mobileNavDrawer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- 1. FULL-BLEED BORDERLESS HERO (No card box, seamless blend into parchment) -->
+    <section class="p4-hero">
+      <div class="container">
+        <div class="p4-hero-copy">
+          <svg class="p4-folk-ornament" viewBox="0 0 40 200" fill="none" aria-hidden="true">
+            <path d="M20 16V184" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="20" cy="14" r="4" fill="currentColor"/>
+            <ellipse cx="12" cy="22" rx="5" ry="2.6" transform="rotate(-35 12 22)" fill="currentColor"/>
+            <ellipse cx="28" cy="22" rx="5" ry="2.6" transform="rotate(35 28 22)" fill="currentColor"/>
+            <path d="M20 55C12 48 9 42 7 38M20 55C28 48 31 42 33 38" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            <circle cx="7" cy="36" r="2.8" fill="currentColor"/>
+            <circle cx="33" cy="36" r="2.8" fill="currentColor"/>
+            <ellipse cx="11" cy="68" rx="5.5" ry="2.6" transform="rotate(-30 11 68)" fill="currentColor"/>
+            <ellipse cx="29" cy="68" rx="5.5" ry="2.6" transform="rotate(30 29 68)" fill="currentColor"/>
+            <path d="M20 105C12 98 9 92 7 88M20 105C28 98 31 92 33 88" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            <circle cx="7" cy="86" r="2.8" fill="currentColor"/>
+            <circle cx="33" cy="86" r="2.8" fill="currentColor"/>
+            <ellipse cx="11" cy="118" rx="5.5" ry="2.6" transform="rotate(-30 11 118)" fill="currentColor"/>
+            <ellipse cx="29" cy="118" rx="5.5" ry="2.6" transform="rotate(30 29 118)" fill="currentColor"/>
+            <path d="M20 155C12 148 9 142 7 138M20 155C28 148 31 142 33 138" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            <circle cx="7" cy="136" r="2.8" fill="currentColor"/>
+            <circle cx="33" cy="136" r="2.8" fill="currentColor"/>
+            <ellipse cx="12" cy="168" rx="5" ry="2.5" transform="rotate(-30 12 168)" fill="currentColor"/>
+            <ellipse cx="28" cy="168" rx="5" ry="2.5" transform="rotate(30 28 168)" fill="currentColor"/>
+            <circle cx="20" cy="186" r="3.5" fill="currentColor"/>
+          </svg>
+
+          <div>
+            <h1 class="p4-hero-title">
+              <span data-i18n="p4HeroLine1">Prawdziwa ukraińska</span><br />
+              <span data-i18n="p4HeroLine2">domowa kuchnia</span>
+              <em data-i18n="p4HeroLine3">w Warszawie</em>
+            </h1>
+
+            <p class="p4-hero-subtitle" data-i18n="p4HeroLead">
+              Gotujemy dla Was ulubione ukraińskie dania ze świeżych składników, jak w domu: smacznie, szczerze i z troską. Zamawiaj online, a my przygotujemy i dostarczymy.
+            </p>
+
+            <div class="p4-hero-actions">
+              <a href="menu.html" class="p4-btn-burgundy">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="m5 11 4-7"/><path d="m19 11-4-7"/><path d="M2 11h20"/><path d="m3.5 11 1.6 7.4a2 2 0 0 0 2 1.6h9.8c.9 0 1.8-.7 2-1.6l1.7-7.4"/><path d="m9 11 1 9"/><path d="m15 11-1 9"/>
+                </svg>
+                <span data-i18n="p4BtnOrder">Zamów dania</span>
+              </a>
+              <a href="menu.html#lunch-section" class="p4-btn-outline" data-i18n="p4BtnMenu">
+                Zobacz menu i Lunch 33 zł
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p4-hero-visual">
+        <img src="img/hero-main.jpg" alt="Barszcz ukraiński ze śmietaną, ręcznie lepione pierogi i złociste czebureki na wyszywanym ręczniku" width="1024" height="438" />
+      </div>
+    </section>
+
+    <!-- 2. POPULAR DISHES ROW (Above the fold together with Hero) -->
+    <section class="p4-popular-section">
+      <div class="container">
+        <div class="p4-section-header">
+          <h2 class="p4-section-title" data-i18n="p4PopularTitle">Popularne dania</h2>
+          <span class="p4-section-rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="p4-popular-grid">
+          <article class="p4-dish-card" data-quick-add="pierogi-z-ziemniakami" role="button" tabindex="0">
+            <div class="p4-dish-img-wrap">
+              <img src="img/clean/pierogi-ziemniaki.jpg" alt="Ukraińskie pierogi ręcznie lepione" width="600" height="400" />
+            </div>
+            <div class="p4-dish-meta">
+              <h3 class="p4-dish-name" data-i18n="p4Card1Title">Ukraińskie pierogi</h3>
+              <span class="p4-dish-price tabular-nums">22 zł</span>
+            </div>
+          </article>
+
+          <article class="p4-dish-card" data-quick-add="czeburek-z-miesem-m" role="button" tabindex="0">
+            <div class="p4-dish-img-wrap">
+              <img src="img/clean/czebureki.jpg" alt="Złociste czebureki smażone na świeżo" width="600" height="400" />
+            </div>
+            <div class="p4-dish-meta">
+              <h3 class="p4-dish-name" data-i18n="p4Card2Title">Czebureki (M / XL)</h3>
+              <span class="p4-dish-price tabular-nums">15 / 21 zł</span>
+            </div>
+          </article>
+
+          <article class="p4-dish-card" data-quick-add="pielmieni-z-wieprzowina" role="button" tabindex="0">
+            <div class="p4-dish-img-wrap">
+              <img src="img/clean/pielmieni.jpg" alt="Pielmieni domowe ręcznie lepione" width="600" height="400" />
+            </div>
+            <div class="p4-dish-meta">
+              <h3 class="p4-dish-name" data-i18n="p4Card3Title">Pielmieni domowe</h3>
+              <span class="p4-dish-price tabular-nums" data-i18n="p4Card3Price">30 zł</span>
+            </div>
+          </article>
+
+          <a href="menu.html#lunch-section" class="p4-lunch-card">
+            <div>
+              <div class="p4-lunch-kicker" data-i18n="p4LunchKicker">LUNCH DNIA</div>
+              <h3 class="p4-lunch-heading" data-i18n="p4LunchHeading">
+                Zupa + danie mięsne + dodatek + surówka
+              </h3>
+              <div class="p4-lunch-price tabular-nums">33 zł</div>
+            </div>
+            <div class="p4-lunch-visual">
+              <img src="img/lunch-combo.jpg" alt="Lunch dnia: barszcz, kotlet z puree ziemniaczanym i surówka" width="466" height="375" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. WHY SMAKOTA (4 Core Advantages) -->
+    <section class="home-section tinted" id="why-smakota-section">
+      <div class="container">
+        <div class="p4-section-header">
+          <h2 class="p4-section-title" data-i18n="homeWhyHeading">Dlaczego Smakota</h2>
+          <span class="p4-section-rule" aria-hidden="true"></span>
+          <a href="about.html" class="home-section-link">
+            <span data-i18n="homeWhyMoreLink">Poznaj naszą kuchnię</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="home-why-grid">
+          <article class="home-why-card">
+            <div class="home-why-icon">
+              <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v4"/><path d="m16.2 7.8 2.9-2.9"/><path d="M18 12h4"/><path d="M6 12H2"/><path d="m4.9 4.9 2.9 2.9"/><circle cx="12" cy="14" r="5"/></svg>
+            </div>
+            <h3 class="home-why-title" data-i18n="homeWhy1Title">Gotujemy na świeżo po zamówieniu</h3>
+            <p class="home-why-desc" data-i18n="homeWhy1Desc">Nie przygotowujemy dań wcześniej i niczego nie odgrzewamy: smażymy i gotujemy dopiero po Twoim zamówieniu.</p>
+          </article>
+
+          <article class="home-why-card">
+            <div class="home-why-icon">
+              <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            </div>
+            <h3 class="home-why-title" data-i18n="homeWhy2Title">100% naturalne składniki</h3>
+            <p class="home-why-desc" data-i18n="homeWhy2Desc">Świeże mięso, prawdziwy twaróg, gęsta śmietana i koperek, bez zagłuszania smaku sztucznymi przyprawami.</p>
+          </article>
+
+          <article class="home-why-card">
+            <div class="home-why-icon">
+              <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14c0 4 4 6 9 6s9-2 9-6c0-2-2-3-4-3H7c-2 0-4 1-4 3Z"/><path d="M7 11c1-2.5 3-4 5-4s4 1.5 5 4"/></svg>
+            </div>
+            <h3 class="home-why-title" data-i18n="homeWhy3Title">Ręcznie lepione na miejscu</h3>
+            <p class="home-why-desc" data-i18n="homeWhy3Desc">Pierogi, pielmieni, chinkali z bulionem i złociste czebureki lepimy własnoręcznie według domowych receptur.</p>
+          </article>
+
+          <article class="home-why-card">
+            <div class="home-why-icon">
+              <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+            </div>
+            <h3 class="home-why-title" data-i18n="homeWhy4Title">Własny kurier i odbiór osobisty</h3>
+            <p class="home-why-desc" data-i18n="homeWhy4Desc">Odbierz gorący obiad w lokalu na Ursusie albo zamów dowóz naszym kurierem prosto pod drzwi lub na budowę.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. MENU CATEGORIES SHOWCASE -->
+    <section class="home-section" id="home-categories-section">
+      <div class="container">
+        <div class="p4-section-header">
+          <h2 class="p4-section-title" data-i18n="homeCatsHeading">Kategorie menu</h2>
+          <span class="p4-section-rule" aria-hidden="true"></span>
+          <a href="menu.html" class="home-section-link">
+            <span data-i18n="homeCatsAllLink">Pełne menu (53 dania)</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="home-cats-grid">
+          <a href="menu.html?cat=zupa" class="home-cat-card">
+            <div class="home-cat-img">
+              <img src="img/clean/barszcz.jpg" alt="Zupy domowe i barszcz ukraiński" loading="lazy" width="600" height="375" />
+            </div>
+            <div class="home-cat-body">
+              <div class="home-cat-top">
+                <h3 class="home-cat-title" data-i18n="homeCat1Title">Zupy domowe</h3>
+                <span class="home-cat-price tabular-nums" data-i18n="homeCat1Price">od 15 zł</span>
+              </div>
+              <p class="home-cat-desc" data-i18n="homeCat1Desc">Barszcz ukraiński ze śmietaną i fasolą, rosół z makaronem, pomidorowa i zupy sezonowe.</p>
+            </div>
+          </a>
+
+          <a href="menu.html?cat=pierogi" class="home-cat-card">
+            <div class="home-cat-img">
+              <img src="img/clean/pierogi-ser.jpg" alt="Pierogi ukraińskie ręcznie lepione" loading="lazy" width="600" height="375" />
+            </div>
+            <div class="home-cat-body">
+              <div class="home-cat-top">
+                <h3 class="home-cat-title" data-i18n="homeCat2Title">Pierogi ręcznie lepione</h3>
+                <span class="home-cat-price tabular-nums" data-i18n="homeCat2Price">od 22 zł</span>
+              </div>
+              <p class="home-cat-desc" data-i18n="homeCat2Desc">Z ziemniakami i cebulką, z mięsem, z twarogiem na słono lub słodko oraz z wiśniami.</p>
+            </div>
+          </a>
+
+          <a href="menu.html?cat=pielmieni" class="home-cat-card">
+            <div class="home-cat-img">
+              <img src="img/clean/pielmieni.jpg" alt="Pielmieni domowe" loading="lazy" width="600" height="375" />
+            </div>
+            <div class="home-cat-body">
+              <div class="home-cat-top">
+                <h3 class="home-cat-title" data-i18n="homeCat3Title">Pielmieni domowe</h3>
+                <span class="home-cat-price tabular-nums" data-i18n="homeCat3Price">od 30 zł</span>
+              </div>
+              <p class="home-cat-desc" data-i18n="homeCat3Desc">Soczyste pielmieni wieprzowe, wieprzowo-wołowe lub drobiowe oraz duże talerze 1000 g.</p>
+            </div>
+          </a>
+
+          <a href="menu.html?cat=czebureki" class="home-cat-card">
+            <div class="home-cat-img">
+              <img src="img/clean/czebureki.jpg" alt="Złociste czebureki" loading="lazy" width="600" height="375" />
+            </div>
+            <div class="home-cat-body">
+              <div class="home-cat-top">
+                <h3 class="home-cat-title" data-i18n="homeCat4Title">Czebureki M / XL</h3>
+                <span class="home-cat-price tabular-nums" data-i18n="homeCat4Price">od 15 zł</span>
+              </div>
+              <p class="home-cat-desc" data-i18n="homeCat4Desc">Smażone na świeżo po zamówieniu: z mięsem, z kurczakiem i z serem. Chrupiące i gorące.</p>
+            </div>
+          </a>
+
+          <a href="menu.html?cat=chinkali" class="home-cat-card">
+            <div class="home-cat-img">
+              <img src="img/clean/chinkali-mieso.jpg" alt="Chinkali z bulionem" loading="lazy" width="600" height="375" />
+            </div>
+            <div class="home-cat-body">
+              <div class="home-cat-top">
+                <h3 class="home-cat-title" data-i18n="homeCat5Title">Chinkali z bulionem</h3>
+                <span class="home-cat-price tabular-nums" data-i18n="homeCat5Price">od 10 zł</span>
+              </div>
+              <p class="home-cat-desc" data-i18n="homeCat5Desc">Ręcznie zawijane sakiewki z aromatycznym bulionem: z wieprzowiną lub serem i szpinakiem.</p>
+            </div>
+          </a>
+
+          <a href="menu.html?cat=dania-miesne" class="home-cat-card">
+            <div class="home-cat-img">
+              <img src="img/clean/zeberka.jpg" alt="Dania mięsne i główne" loading="lazy" width="600" height="375" />
+            </div>
+            <div class="home-cat-body">
+              <div class="home-cat-top">
+                <h3 class="home-cat-title" data-i18n="homeCat6Title">Dania mięsne i naleśniki</h3>
+                <span class="home-cat-price tabular-nums" data-i18n="homeCat6Price">od 18 zł</span>
+              </div>
+              <p class="home-cat-desc" data-i18n="homeCat6Desc">Kotlety schabowe, De Volaille, gołąbki, żeberka pieczone, placki ziemniaczane i krokiety.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="home-cats-footer">
+          <a href="menu.html" class="p4-btn-burgundy" data-i18n="heroBtnMenu">
+            Otwórz pełne menu (53 dania)
+          </a>
+          <button type="button" id="homePrintedMenuBtn" class="p4-btn-outline" data-i18n="btnSeePaperScans">
+            Zobacz zdjęcia papierowej karty menu
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GROUP & CONSTRUCTION ORDERS BANNER -->
+    <section class="home-section" id="home-b2b-section" style="padding-top: 10px;">
+      <div class="container">
+        <div class="home-b2b-banner">
+          <div>
+            <h2 class="home-b2b-title" data-i18n="homeB2bTitle">
+              Obiady dla budów, ekip i firm: 10, 15 i więcej porcji
+            </h2>
+            <p class="home-b2b-desc" data-i18n="homeB2bDesc">
+              Przygotowujemy gorące zestawy Lunch Dnia (33 zł: zupa, danie mięsne, dodatek, surówka) na ustaloną godzinę. Pakujemy w termoopakowania i dowozimy własnym kurierem na budowę lub do biura w Warszawie.
+            </p>
+          </div>
+          <div class="home-b2b-actions">
+            <a href="tel:+48576113316" class="home-b2b-call phone-link">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span data-i18n="homeB2bCallBtn">Zadzwoń: +48 576 113 316</span>
+            </a>
+            <a href="about.html#b2b-section" class="home-b2b-calc" data-i18n="homeB2bCalcBtn">
+              Kalkulator pakietu dla ekipy
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CUSTOMER REVIEWS & TABLE-TENT QR CARD -->
+    <section class="reviews-section" id="reviews-section">
+      <div class="container">
+        <div class="p4-section-header">
+          <h2 class="p4-section-title" data-i18n="homeReviewsHeading">Opinie gości i nasze profile</h2>
+          <span class="p4-section-rule" aria-hidden="true"></span>
+        </div>
+
+        <p style="font-size: 0.96rem; color: var(--ink-secondary); max-width: 68ch; margin-bottom: 24px;" data-i18n="reviewsLead">
+          Dziękujemy za zaufanie polskich i ukraińskich gości w Warszawie. Zobacz opinie o naszych domowych obiadach lub zostaw własną recenzję w Google Maps i na Facebooku.
+        </p>
+
+        <div class="reviews-layout">
+          <div class="reviews-cards-stack" id="reviewsListContainer"></div>
+
+          <aside class="table-tent-card">
+            <img src="img/smakota-logo.png" alt="Oficjalne logo Smakota" class="tent-logo" width="112" height="82" />
+            <h3 class="tent-heading" data-i18n="tentHeading">Najedzony i zadowolony?</h3>
+            <p class="tent-body" data-i18n="tentBody">Będzie nam super miło, jeśli poświęcisz 30 sekund i napiszesz kilka słów.</p>
+            <p class="tent-italic" data-i18n="tentItalic">Dla Ciebie to chwila, dla nas ogromne wsparcie!</p>
+            <div class="review-stars" style="margin: 2px 0;" aria-label="5 gwiazdek">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; width: 100%; margin-top: 4px;">
+              <a href="https://share.google/1MwYUzSfKmWTu60fy" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 10px 18px; font-size: 0.88rem;" data-i18n="btnGoogleMapsReview">
+                Google Maps · Opinie
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61577930057347" target="_blank" rel="noopener noreferrer" class="btn-secondary-outline" style="padding: 10px 18px; font-size: 0.88rem;">
+                Facebook Smakota
+              </a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FAQ ACCORDION -->
+    <section class="home-section" id="home-faq-section">
+      <div class="container">
+        <div class="p4-section-header">
+          <h2 class="p4-section-title" data-i18n="homeFaqHeading">Najczęstsze pytania (FAQ)</h2>
+          <span class="p4-section-rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="home-faq-grid">
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span data-i18n="faq1Q">Czy dania są gotowane na świeżo po zamówieniu?</span>
+              <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="faq-answer" data-i18n="faq1A">
+              Tak. Nie gotujemy potraw z wyprzedzeniem i ich nie odgrzewamy. Czebureki, kotlety, pielmieni i pierogi trafiają do przygotowania dopiero po przyjęciu Twojego zamówienia.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span data-i18n="faq2Q">Co wchodzi w skład zestawu Lunch Dnia za 33 zł?</span>
+              <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="faq-answer" data-i18n="faq2A">
+              Lunch Dnia za 33 zł to pełny 4-daniowy obiad: zupa (np. barszcz ukraiński lub rosół), danie mięsne (kotlet, gołąbki lub żeberka), dodatek (ziemniaki, frytki, makaron lub ryż) oraz domowa surówka.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span data-i18n="faq3Q">Jak działa odbiór osobisty i dostawa własnym kurierem?</span>
+              <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="faq-answer" data-i18n="faq3A">
+              Zamówienie możesz odebrać bezpłatnie w lokalu w Ursusie (ul. Wojciechowskiego 33) lub zamówić dowóz własnym kurierem Smakota. Działamy również na Pyszne.pl, Glovo, Uber Eats i Wolt.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span data-i18n="faq4Q">Czy przyjmujecie większe zamówienia na budowy i dla grup 10–15+ osób?</span>
+              <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="faq-answer" data-i18n="faq4A">
+              Tak, regularnie dostarczamy gorące obiady dla brygad budowlanych i zespołów w Warszawie. Zadzwoń pod +48 576 113 316 lub skorzystaj z kalkulatora na stronie O nas i Dla budów.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span data-i18n="faq5Q">Gdzie znajduje się lokal główny i kiedy ruszy drugi punkt?</span>
+              <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="faq-answer" data-i18n="faq5A">
+              Nasz czynny lokal działa w Warszawie na Ursusie przy ul. Stanisława Wojciechowskiego 33 / lok. 40 (w Google Maps oznaczony jako lok. 44). Drugi lokal (Mokotów / nowy punkt) jest w przygotowaniu do otwarcia.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span data-i18n="faq6Q">Jakimi metodami mogę zapłacić za zamówienie?</span>
+              <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="faq-answer" data-i18n="faq6A">
+              W lokalu i u kuriera akceptujemy gotówkę oraz kartę płatniczą. W trybie demonstracyjnym koszyka możesz również przetestować wybór płatności BLIK / online przed pełnym wdrożeniem produkcyjnym.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACTS & LOCATION BLOCK ABOVE FOOTER -->
+    <section class="home-section tinted" id="home-contact-section">
+      <div class="container">
+        <div class="p4-section-header">
+          <h2 class="p4-section-title" data-i18n="homeContactHeading">Kontakt i jak nas znaleźć</h2>
+          <span class="p4-section-rule" aria-hidden="true"></span>
+          <a href="contact.html" class="home-section-link">
+            <span data-i18n="homeContactFullLink">Pełna strona Kontakt</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="home-contact-grid">
+          <div class="home-contact-info-card">
+            <div>
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-bottom: 14px;">
+                <h3 style="font-family: var(--font-serif-folk); font-size: 1.48rem; font-weight: 700; color: var(--ink-primary);">
+                  Smakota · Ursus
+                </h3>
+                <span class="branch-status-badge active" data-i18n="homeBranchBadgeActive">
+                  Aktywny · Przyjmuje zamówienia
+                </span>
+              </div>
+
+              <div class="home-contact-list">
+                <div class="home-contact-row">
+                  <span class="home-contact-row-icon">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </span>
+                  <div>
+                    <div style="font-size: 0.8rem; font-weight: 700; color: var(--ink-muted);" data-i18n="contactAddressLabel">Adres lokalu:</div>
+                    <div style="font-weight: 700; font-size: 0.94rem; color: var(--ink-primary);" data-i18n="homeAddressValue">
+                      ul. Stanisława Wojciechowskiego 33 / lok. 40 (w Google Maps: lok. 44), 02-495 Warszawa
+                    </div>
+                  </div>
+                </div>
+
+                <div class="home-contact-row">
+                  <span class="home-contact-row-icon">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </span>
+                  <div>
+                    <div style="font-size: 0.8rem; font-weight: 700; color: var(--ink-muted);" data-i18n="contactPhoneLabel">Telefon do zamówień (Lokal Ursus):</div>
+                    <a href="tel:+48576113316" class="phone-link" style="font-weight: 800; font-size: 1.08rem; color: var(--ink-burgundy); text-decoration: none;">+48 576 113 316</a>
+                  </div>
+                </div>
+
+                <div class="home-contact-row">
+                  <span class="home-contact-row-icon">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  </span>
+                  <div>
+                    <div style="font-size: 0.8rem; font-weight: 700; color: var(--ink-muted);" data-i18n="contactHoursLabel">Godziny otwarcia:</div>
+                    <div style="font-weight: 600; font-size: 0.92rem; color: var(--ink-primary);" data-i18n="homeHoursValue">Pon–Czw: 11:00–20:00 · Pt–Ndz: 10:00–20:30</div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top: 16px; padding: 12px 14px; border-radius: 10px; background-color: var(--bg-parchment-deep); border: 1px solid var(--border-warm); font-size: 0.85rem; color: var(--ink-secondary);">
+                <strong style="color: var(--ink-burgundy);" data-i18n="homeBranch2Title">Smakota Lokal #2 (Otwarcie wkrótce):</strong>
+                <span data-i18n="homeBranch2Note">Drugi punkt w Warszawie w trakcie konfiguracji przed otwarciem.</span>
+                <a href="locations.html" style="font-weight: 700; margin-left: 4px;" data-i18n="homeLocationsBtn">Sprawdź lokale i strefy dostawy</a>
+              </div>
+            </div>
+
+            <div class="home-contact-socials">
+              <a href="https://share.google/1MwYUzSfKmWTu60fy" target="_blank" rel="noopener noreferrer" class="home-social-pill">Google Maps</a>
+              <a href="https://www.facebook.com/profile.php?id=61577930057347" target="_blank" rel="noopener noreferrer" class="home-social-pill">Facebook</a>
+              <a href="https://www.instagram.com/smakotawarszawa/" target="_blank" rel="noopener noreferrer" class="home-social-pill">Instagram @smakotawarszawa</a>
+            </div>
+          </div>
+
+          <div class="home-contact-form-card">
+            <div>
+              <h3 style="font-family: var(--font-serif-folk); font-size: 1.48rem; font-weight: 700; color: var(--ink-primary); margin-bottom: 6px;" data-i18n="homeQuickFormTitle">
+                Szybki kontakt i zamówienia na budowę
+              </h3>
+              <p style="font-size: 0.88rem; color: var(--ink-secondary); margin-bottom: 16px;" data-i18n="homeQuickFormSub">
+                Zostaw numer telefonu oraz liczbę porcji lub pytanie, a oddzwonimy z kuchni.
+              </p>
+
+              <form id="homeQuickContactForm" novalidate style="display: flex; flex-direction: column; gap: 12px;">
+                <div class="form-field">
+                  <label for="homeCntName" data-i18n="contactNameLabel">Twoje imię lub nazwa firmy *</label>
+                  <input type="text" id="homeCntName" class="form-input" required placeholder="Np. Marek / Ekipa Ursus" />
+                </div>
+
+                <div class="form-field">
+                  <label for="homeCntPhone" data-i18n="contactPhoneInputLabel">Numer telefonu *</label>
+                  <input type="tel" id="homeCntPhone" class="form-input" required placeholder="+48 500 000 000" />
+                </div>
+
+                <div class="form-field">
+                  <label for="homeCntMsg" data-i18n="contactMsgLabel">Wiadomość lub szczegóły zamówienia</label>
+                  <textarea id="homeCntMsg" class="form-input" rows="2" placeholder="Np. 12 obiadów Lunch Dnia na godz. 13:00 lub pytanie o dostawę"></textarea>
+                </div>
+
+                <div id="homeCntFeedback" style="display: none; font-size: 0.86rem; font-weight: 700;"></div>
+
+                <button type="submit" class="btn-primary" style="width: 100%; padding: 12px 18px;" data-i18n="homeQuickSubmitBtn">
+                  Zamów oddzwonienie z lokalu (DEMO)
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-heading">SMAKOTA · OBIADY DOMOWE</h3>
+          <p style="font-size: 0.9rem; color: var(--ink-on-burgundy-soft); max-width: 44ch; margin-bottom: 14px;" data-i18n="footerAbout">
+            Autentyczna kuchnia ukraińska i domowe obiady w Warszawie. Gotujemy na świeżo po złożeniu zamówienia z naturalnych składników. Odbiór osobisty oraz dostawa własnym kurierem.
+          </p>
+          <div style="font-size: 0.88rem; color: var(--ink-on-burgundy); font-weight: 700;">
+            ul. Stanisława Wojciechowskiego 33 / lok. 40 (44), 02-495 Warszawa (Ursus)
+          </div>
+          <div style="margin-top: 6px;">
+            <a href="tel:+48576113316" class="phone-link" style="color: #FFE39E; font-weight: 800; font-size: 1.05rem;">+48 576 113 316</a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer-heading" data-i18n="footerNavTitle">Strony serwisu</h3>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="navHome">Strona główna</a></li>
+            <li><a href="menu.html" data-i18n="navMenu">Menu i Lunch 33 zł</a></li>
+            <li><a href="about.html" data-i18n="navAbout">O nas i Dla budów (10–15+)</a></li>
+            <li><a href="locations.html" data-i18n="navLocations">Lokale i Dostawa</a></li>
+            <li><a href="contact.html" data-i18n="navContact">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading" data-i18n="footerSocialTitle">Social Media &amp; System</h3>
+          <ul class="footer-links">
+            <li><a href="https://share.google/1MwYUzSfKmWTu60fy" target="_blank" rel="noopener noreferrer">Google Maps · Bistro Smakota</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61577930057347" target="_blank" rel="noopener noreferrer">Facebook · Smakota Warszawa</a></li>
+            <li><a href="https://www.instagram.com/smakotawarszawa/" target="_blank" rel="noopener noreferrer">Instagram · @smakotawarszawa</a></li>
+            <li><button type="button" id="footerOriginalMenuBtn" style="color: var(--ink-on-burgundy-soft); font-size: 0.9rem; text-align: left;" data-i18n="btnOriginalMenu">Karta menu (Foto)</button></li>
+            <li><button type="button" id="footerAuditBtn" style="color: #FFE39E; font-size: 0.9rem; text-align: left;" data-i18n="btnAuditTz">Audyt ТЗ (6)</button></li>
+            <li><button type="button" id="footerAdminBtn" style="color: var(--ink-on-burgundy-soft); font-size: 0.9rem; text-align: left;" data-i18n="btnAdminDemo">Panel Admin (DEMO)</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Smakota · Obiady Domowe (Warszawa). Wersja demonstracyjna zgodna ze specyfikacją techniczną (ТЗ v1.0).</span>
+        <span>Polski (PL) / Українська (UA) · Waluta: PLN (zł) · Europe/Warsaw</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-bottom-bar">
+    <a href="tel:+48576113316" class="btn-call-burgundy phone-link" style="flex: 1; padding: 11px 12px; font-size: 0.86rem;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span data-i18n="mobileCallBtn">Zadzwoń</span>
+    </a>
+    <button type="button" class="btn-primary" id="mobileCartBtn" style="flex: 1.4; padding: 11px 14px; font-size: 0.88rem;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+      <span data-i18n="cartBtnLabel">Koszyk</span>
+      <span class="cart-badge tabular-nums" id="mobileCartCount">0</span>
+    </button>
+  </div>
+
+  <script src="data/menu-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
