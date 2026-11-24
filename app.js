@@ -745,7 +745,7 @@
         <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Menu mobilne">
           <div class="mobile-nav-header">
             <div class="mobile-nav-brand">
-              <img src="img/smakota-logo.png" alt="Logo Smakota" class="mobile-nav-logo" />
+              <img src="img/smakota-logo.webp" alt="Logo Smakota" class="mobile-nav-logo" />
               <span class="mobile-nav-sep" aria-hidden="true"></span>
               <span class="mobile-nav-wordmark">SMAKOTA</span>
               <span class="mobile-nav-sep" aria-hidden="true"></span>
@@ -756,17 +756,6 @@
             </button>
           </div>
           <div class="mobile-nav-body">
-            <svg class="mobile-nav-wheat-bg" viewBox="0 0 142 152" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M112 150C108 110 96 70 70 12"/>
-              <path d="M70 12c-10 10-10 22 0 30 10-8 10-20 0-30z"/>
-              <path d="M82 40c-12 8-14 20-6 30 12-6 14-18 6-30z"/>
-              <path d="M58 40c12 8 14 20 6 30-12-6-14-18-6-30z" transform="translate(-4 4)"/>
-              <path d="M94 74c-12 8-14 20-6 30 12-6 14-18 6-30z"/>
-              <path d="M70 72c12 8 14 20 6 30-12-6-14-18-6-30z" transform="translate(-4 4)"/>
-              <path d="M104 106c-12 8-14 20-6 30 12-6 14-18 6-30z"/>
-              <path d="M84 108c12 8 14 20 6 30-12-6-14-18-6-30z" transform="translate(-4 4)"/>
-              <path d="M70 12L66 2M70 12L74 2M70 12L70 0"/>
-            </svg>
             <nav class="mobile-nav-links" aria-label="Menu główne">
               <a href="index.html" class="mobile-nav-link ${activeCls("index.html")}" data-i18n="navHome">Strona główna</a>
               <a href="menu.html" class="mobile-nav-link ${activeCls("menu.html")}" data-i18n="navMenu">Menu</a>
@@ -861,16 +850,16 @@
             </p>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px;">
               <figure style="background: var(--bg-card); border: 1px solid var(--border-warm); border-radius: var(--radius-card); padding: 12px;">
-                <img src="img/WhatsApp Image 2026-11-21 at 9.13.10 a.m..jpeg" alt="Karta Menu Smakota Strona 1" loading="lazy" style="border-radius: 8px; width: 100%;" />
+                <img src="img/WhatsApp Image 2026-11-21 at 9.13.10 a.m..webp" alt="Karta Menu Smakota Strona 1" loading="lazy" style="border-radius: 8px; width: 100%;" />
                 <figcaption style="font-weight: 800; font-size: 0.85rem; color: var(--ink-burgundy); margin-top: 10px;">Strona 1: Zupa, Dania mięsne, Dodatki, Surówki, Chinkali, Lunch 33 zł</figcaption>
               </figure>
               <figure style="background: var(--bg-card); border: 1px solid var(--border-warm); border-radius: var(--radius-card); padding: 12px;">
-                <img src="img/WhatsApp Image 2026-11-21 at 9.13.10 a.m. (1).jpeg" alt="Karta Menu Smakota Strona 2" loading="lazy" style="border-radius: 8px; width: 100%;" />
+                <img src="img/WhatsApp Image 2026-11-21 at 9.13.10 a.m. (1).webp" alt="Karta Menu Smakota Strona 2" loading="lazy" style="border-radius: 8px; width: 100%;" />
                 <figcaption style="font-weight: 800; font-size: 0.85rem; color: var(--ink-burgundy); margin-top: 10px;">Strona 2: Pierogi, Pielmieni, Czebureki, Naleśniki, Sałatki, Kontakt</figcaption>
               </figure>
               <figure style="background: var(--bg-card); border: 1px solid var(--border-warm); border-radius: var(--radius-card); padding: 12px;">
-                <img src="img/WhatsApp Image 2026-11-21 at 9.30.05 a.m..jpeg" alt="Karta opinii Smakota z oficjalnym logo" loading="lazy" style="border-radius: 8px; width: 100%; margin-bottom: 12px;" />
-                <img src="img/WhatsApp Image 2026-11-21 at 9.30.29 a.m..jpeg" alt="Karta QR Zostaw Opinię Smakota" loading="lazy" style="border-radius: 8px; width: 100%;" />
+                <img src="img/WhatsApp Image 2026-11-21 at 9.30.05 a.m..webp" alt="Karta opinii Smakota z oficjalnym logo" loading="lazy" style="border-radius: 8px; width: 100%; margin-bottom: 12px;" />
+                <img src="img/WhatsApp Image 2026-11-21 at 9.30.29 a.m..webp" alt="Karta QR Zostaw Opinię Smakota" loading="lazy" style="border-radius: 8px; width: 100%;" />
                 <figcaption style="font-weight: 800; font-size: 0.85rem; color: var(--ink-burgundy); margin-top: 10px;">Karty stolikowe z oficjalnym logo Smakota i kodem QR</figcaption>
               </figure>
             </div>
@@ -2045,28 +2034,28 @@
   }
 
   function getCartItemThumb(item) {
-    if (!item) return "img/hero-main.jpg";
+    if (!item) return "img/hero-main.webp";
     if (item.productId === "lunch-dnia-33") {
-      return "img/lunch-combo.png";
+      return "img/lunch-combo.webp";
     }
     const prod = DATA.products.find((p) => p.id === item.productId);
     if (prod && prod.image) {
       return prod.image;
     }
     const categoryFallback = {
-      zupa: "img/clean/barszcz.jpg",
-      pierogi: "img/clean/pierogi-ziemniaki.jpg",
-      pielmieni: "img/clean/pielmieni.jpg",
-      czebureki: "img/clean/czebureki.jpg",
-      chinkali: "img/clean/chinkali-mieso.jpg",
-      nalesniki: "img/clean/racuchy.jpg",
-      "dania-miesne": "img/clean/zeberka.jpg",
-      salatki: "img/clean/kopytka.jpg",
-      "dodatki-obiadowe": "img/clean/placki.jpg",
-      surowki: "img/clean/kalafior.jpg",
-      "sosy-napoje": "img/hero-borscht.jpg"
+      zupa: "img/clean/barszcz.webp",
+      pierogi: "img/clean/pierogi-ziemniaki.webp",
+      pielmieni: "img/clean/pielmieni.webp",
+      czebureki: "img/clean/czebureki.webp",
+      chinkali: "img/clean/chinkali-mieso.webp",
+      nalesniki: "img/clean/racuchy.webp",
+      "dania-miesne": "img/clean/zeberka.webp",
+      salatki: "img/clean/kopytka.webp",
+      "dodatki-obiadowe": "img/clean/placki.webp",
+      surowki: "img/clean/kalafior.webp",
+      "sosy-napoje": "img/hero-borscht.webp"
     };
-    return (prod && categoryFallback[prod.categoryId]) || "img/hero-main.jpg";
+    return (prod && categoryFallback[prod.categoryId]) || "img/hero-main.webp";
   }
 
   function splitCheckoutItemTitle(item, lang) {
@@ -2697,9 +2686,9 @@
     if (!grid) return;
 
     const branchThumbs = {
-      "branch-ursus": "img/hero-main.jpg",
-      "branch-2": "img/menu-hero-varenyky.jpg",
-      "branch-3": "img/clean/pielmieni.jpg"
+      "branch-ursus": "img/hero-main.webp",
+      "branch-2": "img/menu-hero-varenyky.webp",
+      "branch-3": "img/clean/pielmieni.webp"
     };
 
     const branchShortTitles = {
@@ -2732,7 +2721,7 @@
       .map((b) => {
         const isSelected = b.id === state.selectedBranchId;
         const isActive = b.status === "ACTIVE";
-        const thumb = branchThumbs[b.id] || "img/clean/czebureki.jpg";
+        const thumb = branchThumbs[b.id] || "img/clean/czebureki.webp";
         const displayTitle = branchShortTitles[b.id]?.[state.lang] || b.name[state.lang];
         const displayAddr = branchCleanAddr[b.id]?.[state.lang] || b.address;
 

@@ -4833,18 +4833,6 @@ a.c1-row-value:hover {
   overflow-x: hidden;
 }
 
-.mobile-nav-wheat-bg {
-  position: absolute;
-  top: -4px;
-  right: -10px;
-  width: 142px;
-  height: 152px;
-  color: #B8936C;
-  opacity: 0.42;
-  pointer-events: none;
-  z-index: 0;
-}
-
 .mobile-nav-links,
 .mobile-nav-lang-row,
 .mobile-nav-card,
