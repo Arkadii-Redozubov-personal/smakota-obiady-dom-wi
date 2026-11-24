@@ -25,8 +25,8 @@
 
       <nav class="main-nav" aria-label="Główna nawigacja">
         <a href="index.html" class="nav-link" data-i18n="navHome">Strona główna</a>
-        <a href="menu.html" class="nav-link" data-i18n="navMenu">Menu i Lunch</a>
-        <a href="about.html" class="nav-link" data-i18n="navAbout">O nas i Dla budów</a>
+        <a href="menu.html" class="nav-link" data-i18n="navMenu">Menu</a>
+        <a href="about.html" class="nav-link" data-i18n="navAbout">O nas</a>
         <a href="locations.html" class="nav-link active" data-i18n="navLocations">Lokale i Dostawa</a>
         <a href="contact.html" class="nav-link" data-i18n="navContact">Kontakt</a>
       </nav>
@@ -56,9 +56,26 @@
   </header>
 
   <main>
-    <h1 class="sr-only" data-i18n="locationsPageTitle">Nasze Lokale, Odbiór Osobisty i Dostawa Własnym Kurierem</h1>
+    <!-- 1. LOCATIONS EDITORIAL HERO MATCHING MENU HERO FORMAT -->
+    <section class="m1-hero m1-hero--locations">
+      <div class="container">
+        <div class="m1-hero-content">
+          <h1 class="m1-hero-title">
+            <span data-i18n="l1HeroLine1">Lokale i dostawa</span><br />
+            <span data-i18n="l1HeroLine2">w Warszawie</span>
+          </h1>
+          <p class="m1-hero-subtitle" data-i18n="l1HeroLead">
+            Odbiór osobisty w Ursusie oraz dostawa własnym kurierem na terenie Warszawy.
+          </p>
+        </div>
+      </div>
 
-    <!-- 1. LOCATIONS SPLIT LAYOUT MATCHING REFERENCE PHOTO (WITH REAL DATA & LIVE MAP) -->
+      <div class="m1-hero-visual">
+        <img src="img/locations-hero-borscht.jpg" alt="Barszcz ukraiński w glinianej misce na wyszywanym ręczniku — Smakota Warszawa" width="1024" height="341" />
+      </div>
+    </section>
+
+    <!-- 2. LOCATIONS SPLIT LAYOUT MATCHING REFERENCE PHOTO (WITH REAL DATA & LIVE MAP) -->
     <section class="l1-locations-section" id="locations-section">
       <div class="container">
         <div class="l1-locations-grid">
@@ -193,8 +210,8 @@
           <h3 class="footer-heading" data-i18n="footerNavTitle">Strony serwisu</h3>
           <ul class="footer-links">
             <li><a href="index.html" data-i18n="navHome">Strona główna</a></li>
-            <li><a href="menu.html" data-i18n="navMenu">Menu i Lunch 33 zł</a></li>
-            <li><a href="about.html" data-i18n="navAbout">O nas i Dla budów (10–15+)</a></li>
+            <li><a href="menu.html" data-i18n="navMenu">Menu</a></li>
+            <li><a href="about.html" data-i18n="navAbout">O nas</a></li>
             <li><a href="locations.html" data-i18n="navLocations">Lokale i Dostawa</a></li>
             <li><a href="contact.html" data-i18n="navContact">Kontakt</a></li>
           </ul>

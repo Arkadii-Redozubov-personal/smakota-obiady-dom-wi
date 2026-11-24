@@ -16,8 +16,8 @@
     pl: {
       brandSubtitle: "OBIADY DOMOWE",
       navHome: "Strona główna",
-      navMenu: "Menu i Lunch",
-      navAbout: "O nas i Dla budów",
+      navMenu: "Menu",
+      navAbout: "O nas",
       navLocations: "Lokale i Dostawa",
       navContact: "Kontakt",
       btnOriginalMenu: "Karta menu (Foto)",
@@ -162,6 +162,9 @@
       btnCallForPrice: "Zadzwoń o dostępność i cenę",
 
       // About Page
+      aboutHeroEyebrow: "O NAS I DLA BUDÓW",
+      aboutHeroLine1: "O naszej kuchni",
+      aboutHeroLine2: "i obiadach dla ekip",
       aboutPageTitle: "O naszej kuchni, Obiady dla budów i Opinie gości",
       aboutPageLead: "Poznaj zasady, którymi kierujemy się każdego dnia w Smakocie: naturalne składniki, ręczne lepienie i gotowanie wyłącznie po złożeniu zamówienia.",
       aboutStoryHeading: "DLACZEGO SMAKOTA SMAKUJE JAK W DOMU",
@@ -192,6 +195,10 @@
       // Locations Page
       locationsPageTitle: "Nasze Lokale, Odbiór Osobisty i Dostawa Własnym Kurierem",
       locationsPageLead: "Sprawdź adresy, godziny otwarcia i status naszych punktów w Warszawie. System obsługuje aktualny lokal na Ursusie, otwierany drugi punkt oraz dalszy rozwój sieci do 3–5 filii.",
+      l1HeroEyebrow: "LOKALE I DOSTAWA",
+      l1HeroLine1: "Lokale i dostawa",
+      l1HeroLine2: "w Warszawie",
+      l1HeroLead: "Odbiór osobisty w Ursusie oraz dostawa własnym kurierem na terenie Warszawy.",
       locationsHeading: "PUNKTY SMAKOTA W WARSZAWIE",
       locationsLead: "Wybierz punkt Smakota, aby zamówić odbiór osobisty, zadzwonić bezpośrednio do kuchni lub sprawdzić dostawę naszym własnym kurierem.",
       l1Heading: "Nasze lokale",
@@ -220,12 +227,18 @@
       rulePlatformsDesc: "Jesteśmy obecni także w serwisach Pyszne.pl, Glovo, Uber Eats oraz Wolt, jednak bezpośredni telefon do lokalu to najszybszy kontakt z naszą kuchnią.",
 
       // Mobile Navigation Drawer
-      mobileNavTitle: "Nawigacja",
-      mobileNavCallLabel: "Zamówienia telefoniczne (Ursus)",
+      mobileNavTitle: "Menu",
+      mobileNavLangLabel: "Język",
       mobileNavHoursLabel: "Pon–Czw 11:00–20:00 · Pt–Ndz 10:00–20:30",
-      mobileNavGmaps: "Pokaż trasę w Google Maps ↗",
+      mobileNavCallCta: "Zadzwoń teraz",
+      mobileNavPrintedMenu: "Drukowane menu",
+      mobileNavRoute: "Trasa",
 
       // Contact Page (1:1 Editorial + Real Data)
+      c1HeroEyebrow: "KONTAKT Z LOKALEM",
+      c1HeroLine1: "Skontaktuj się",
+      c1HeroLine2: "ze Smakotą",
+      c1HeroLead: "Zamówienia telefoniczne, pytania o menu oraz obiady grupowe na budowy i do firm.",
       contactPageTitle: "Kontakt z Lokalem, Zamówienia Telefoniczne i Mapa",
       contactPageLead: "Masz pytanie o menu, chcesz zamówić gorący obiad z odbiorem osobistym, dostawę kurierem lub ustalić regularne posiłki dla ekipy budowlanej? Skontaktuj się z nami bezpośrednio.",
       c1Heading: "Nasze kontakty",
@@ -276,7 +289,8 @@
       footerNavTitle: "Strony serwisu",
       footerSocialTitle: "Social Media & System",
       mobileCallBtn: "Zadzwoń",
-      cartDrawerTitle: "Twój koszyk i zamówienie",
+      cartDrawerTitle: "Twój koszyk",
+      coPageTitle: "Finalizacja zamówienia",
       printedModalTitle: "Oryginalna karta menu i materiały lokalu Smakota",
       printedModalSub: "Poniżej znajdują się oryginalne zdjęcia fizycznej karty menu oraz kart stolikowych przekazane przez właściciela:",
       auditModalTitle: "Audyt ТЗ, Transkrypcji i Materiałów (Rozbieżności i Otwarte Pytania)",
@@ -285,8 +299,8 @@
     uk: {
       brandSubtitle: "ДОМАШНІ ОБІДИ",
       navHome: "Головна",
-      navMenu: "Меню і Ланч",
-      navAbout: "Про нас і Будови",
+      navMenu: "Меню",
+      navAbout: "Про нас",
       navLocations: "Локали і Доставка",
       navContact: "Контакти",
       btnOriginalMenu: "Друковане меню (Фото)",
@@ -431,6 +445,9 @@
       btnCallForPrice: "Подзвонити щодо ціни",
 
       // About Page
+      aboutHeroEyebrow: "ПРО НАС І БУДОВИ",
+      aboutHeroLine1: "Про нашу кухню",
+      aboutHeroLine2: "та обіди для бригад",
       aboutPageTitle: "Про нашу кухню, Обіди для будов та Відгуки гостей",
       aboutPageLead: "Дізнайтеся про принципи, якими ми керуємося щодня у Smakota: натуральні продукти, ручна ліпка та приготування виключно після замовлення.",
       aboutStoryHeading: "ЧОМУ В SMAKOTA СМАКУЄ ЯК ВДОМА",
@@ -461,6 +478,10 @@
       // Locations Page
       locationsPageTitle: "Наші Локали, Самовивіз та Доставка Власним Кур'єром",
       locationsPageLead: "Перегляньте адреси, графік роботи та статус наших точок у Варшаві. Система підтримує головний локал на Урсусі, другу точку, що готується до відкриття, та масштабування мережі до 3–5 філій.",
+      l1HeroEyebrow: "ЛОКАЛИ І ДОСТАВКА",
+      l1HeroLine1: "Локали та доставка",
+      l1HeroLine2: "у Варшаві",
+      l1HeroLead: "Самовивіз на Урсусі та доставка власним кур'єром по Варшаві.",
       locationsHeading: "ТОЧКИ SMAKOTA У ВАРШАВІ",
       locationsLead: "Оберіть точку Smakota для самовивозу, прямого дзвінка на кухню або замовлення доставки власним кур'єром.",
       l1Heading: "Наші локали",
@@ -489,12 +510,18 @@
       rulePlatformsDesc: "Ми також представлені в Pyszne.pl, Glovo, Uber Eats та Wolt, проте прямий дзвінок у локал — найшвидший спосіб замовити без посередників.",
 
       // Mobile Navigation Drawer
-      mobileNavTitle: "Навігація",
-      mobileNavCallLabel: "Замовлення за телефоном (Урсус)",
+      mobileNavTitle: "Меню",
+      mobileNavLangLabel: "Мова",
       mobileNavHoursLabel: "Пн–Чт 11:00–20:00 · Пт–Нд 10:00–20:30",
-      mobileNavGmaps: "Маршрут у Google Maps ↗",
+      mobileNavCallCta: "Подзвонити зараз",
+      mobileNavPrintedMenu: "Друковане меню",
+      mobileNavRoute: "Маршрут",
 
       // Contact Page (1:1 Editorial + Real Data)
+      c1HeroEyebrow: "ЗВ'ЯЗОК ІЗ ЛОКАЛОМ",
+      c1HeroLine1: "Зв’яжіться",
+      c1HeroLine2: "зі Смакотою",
+      c1HeroLead: "Замовлення за телефоном, питання щодо меню та групові обіди на будови й у фірми.",
       contactPageTitle: "Контакти Локалу, Замовлення за Телефоном та Карта",
       contactPageLead: "Маєте запитання щодо меню, бажаєте замовити гарячий обід із самовивозом, доставку кур'єром або домовитися про регулярні обіди для будівельної бригади? Зв'яжіться з нами напряму.",
       c1Heading: "Наші контакти",
@@ -545,7 +572,8 @@
       footerNavTitle: "Сторінки сайту",
       footerSocialTitle: "Соцмережі та Система",
       mobileCallBtn: "Подзвонити",
-      cartDrawerTitle: "Ваш кошик та оформлення",
+      cartDrawerTitle: "Ваш кошик",
+      coPageTitle: "Оформлення замовлення",
       printedModalTitle: "Оригінальне друковане меню та матеріали локалу Smakota",
       printedModalSub: "Нижче наведено оригінальні фотографії паперового меню та настільних карток від власника:",
       auditModalTitle: "Аудит ТЗ, Транскрипції та Матеріалів (Суперечності та Відкриті Питання)",
@@ -557,7 +585,8 @@
   const state = {
     lang: "pl",
     selectedBranchId: "branch-ursus",
-    fulfillmentType: "PICKUP",
+    fulfillmentType: "DELIVERY",
+    paymentMethod: "BLIK_DEMO",
     selectedMenuGroup: "all",
     selectedCategoryId: "all",
     viewMode: "all",
@@ -573,6 +602,14 @@
     cart: {
       branchId: "branch-ursus",
       items: []
+    },
+    checkoutDraft: {
+      name: "",
+      phone: "",
+      email: "",
+      address: "",
+      apartment: "",
+      notes: ""
     },
     orders: [
       {
@@ -604,7 +641,12 @@
       const parsed = JSON.parse(raw);
       if (parsed.lang === "pl" || parsed.lang === "uk") state.lang = parsed.lang;
       if (parsed.selectedBranchId) state.selectedBranchId = parsed.selectedBranchId;
-      if (parsed.fulfillmentType) state.fulfillmentType = parsed.fulfillmentType;
+      if (parsed.fulfillmentType === "DELIVERY" || parsed.fulfillmentType === "PICKUP") {
+        state.fulfillmentType = parsed.fulfillmentType;
+      }
+      if (parsed.paymentMethod === "BLIK_DEMO" || parsed.paymentMethod === "AT_PICKUP") {
+        state.paymentMethod = parsed.paymentMethod;
+      }
       if (parsed.cart && Array.isArray(parsed.cart.items)) {
         state.cart = parsed.cart;
       }
@@ -636,6 +678,7 @@
         lang: state.lang,
         selectedBranchId: state.selectedBranchId,
         fulfillmentType: state.fulfillmentType,
+        paymentMethod: state.paymentMethod,
         cart: state.cart,
         orders: state.orders,
         disabledProducts: DATA.products.filter((p) => !p.available).map((p) => p.id),
@@ -656,6 +699,15 @@
       return `${zl} zł`;
     }
     return `${zl.toFixed(2).replace(".", ",")} zł`;
+  }
+
+  function escapeHtml(str) {
+    return String(str ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
   }
 
   function getActiveBranch() {
@@ -691,26 +743,43 @@
       <!-- MOBILE NAVIGATION DRAWER (Visible via hamburger below 1120px) -->
       <div class="mobile-nav-backdrop" id="mobileNavDrawerBackdrop" role="dialog" aria-modal="true" aria-labelledby="mobileNavDrawerTitle">
         <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Menu mobilne">
-          <div class="modal-header">
-            <div style="display:flex;align-items:center;gap:10px;">
-              <img src="img/smakota-logo.png" alt="Logo Smakota" width="38" height="28" style="object-fit:contain;filter:brightness(1.15);" />
-              <span class="modal-title" id="mobileNavDrawerTitle" data-i18n="mobileNavTitle">Nawigacja</span>
+          <div class="mobile-nav-header">
+            <div class="mobile-nav-brand">
+              <img src="img/smakota-logo.png" alt="Logo Smakota" class="mobile-nav-logo" />
+              <span class="mobile-nav-sep" aria-hidden="true"></span>
+              <span class="mobile-nav-wordmark">SMAKOTA</span>
+              <span class="mobile-nav-sep" aria-hidden="true"></span>
+              <span class="mobile-nav-subtitle" id="mobileNavDrawerTitle" data-i18n="mobileNavTitle">Menu</span>
             </div>
-            <button type="button" class="modal-close-btn" id="closeMobileNavBtn" aria-label="Zamknij menu">
+            <button type="button" class="mobile-nav-close-btn" id="closeMobileNavBtn" aria-label="Zamknij menu">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
             </button>
           </div>
           <div class="mobile-nav-body">
+            <svg class="mobile-nav-wheat-bg" viewBox="0 0 142 152" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M112 150C108 110 96 70 70 12"/>
+              <path d="M70 12c-10 10-10 22 0 30 10-8 10-20 0-30z"/>
+              <path d="M82 40c-12 8-14 20-6 30 12-6 14-18 6-30z"/>
+              <path d="M58 40c12 8 14 20 6 30-12-6-14-18-6-30z" transform="translate(-4 4)"/>
+              <path d="M94 74c-12 8-14 20-6 30 12-6 14-18 6-30z"/>
+              <path d="M70 72c12 8 14 20 6 30-12-6-14-18-6-30z" transform="translate(-4 4)"/>
+              <path d="M104 106c-12 8-14 20-6 30 12-6 14-18 6-30z"/>
+              <path d="M84 108c12 8 14 20 6 30-12-6-14-18-6-30z" transform="translate(-4 4)"/>
+              <path d="M70 12L66 2M70 12L74 2M70 12L70 0"/>
+            </svg>
             <nav class="mobile-nav-links" aria-label="Menu główne">
               <a href="index.html" class="mobile-nav-link ${activeCls("index.html")}" data-i18n="navHome">Strona główna</a>
-              <a href="menu.html" class="mobile-nav-link ${activeCls("menu.html")}" data-i18n="navMenu">Menu i Lunch</a>
-              <a href="about.html" class="mobile-nav-link ${activeCls("about.html")}" data-i18n="navAbout">O nas i Dla budów</a>
+              <a href="menu.html" class="mobile-nav-link ${activeCls("menu.html")}" data-i18n="navMenu">Menu</a>
+              <a href="about.html" class="mobile-nav-link ${activeCls("about.html")}" data-i18n="navAbout">O nas</a>
               <a href="locations.html" class="mobile-nav-link ${activeCls("locations.html")}" data-i18n="navLocations">Lokale i Dostawa</a>
               <a href="contact.html" class="mobile-nav-link ${activeCls("contact.html")}" data-i18n="navContact">Kontakt</a>
             </nav>
 
             <div class="mobile-nav-lang-row">
-              <span style="font-size:0.84rem;font-weight:700;color:var(--ink-secondary);">PL / UA</span>
+              <span class="mobile-nav-lang-left">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <span class="mobile-nav-lang-label" data-i18n="mobileNavLangLabel">Język</span>
+              </span>
               <div class="lang-switcher" role="group" aria-label="Wybór języka">
                 <button type="button" class="lang-btn active" data-lang="pl">PL</button>
                 <button type="button" class="lang-btn" data-lang="uk">UA</button>
@@ -718,20 +787,33 @@
             </div>
 
             <div class="mobile-nav-card">
-              <div class="mobile-nav-label" data-i18n="mobileNavCallLabel">Zamówienia telefoniczne (Ursus)</div>
-              <a href="tel:+48576113316" class="mobile-nav-call phone-link">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                <span>+48 576 113 316</span>
-              </a>
-              <div class="mobile-nav-meta">
-                <div>ul. S. Wojciechowskiego 33 / lok. 40 (44), Warszawa</div>
-                <div data-i18n="mobileNavHoursLabel">Pon–Czw 11:00–20:00 · Pt–Ndz 10:00–20:30</div>
+              <div class="mobile-nav-branch-title">SMAKOTA <em>Ursus</em></div>
+              <div class="mobile-nav-info-row">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:+48576113316" class="mobile-nav-phone-num phone-link">+48 576 113 316</a>
               </div>
+              <div class="mobile-nav-info-row">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                <div>
+                  <div>ul. S. Wojciechowskiego 33 / lok. 40 (44), Warszawa</div>
+                  <div class="mobile-nav-hours" data-i18n="mobileNavHoursLabel">Pon–Czw 11:00–20:00 · Pt–Ndz 10:00–20:30</div>
+                </div>
+              </div>
+              <a href="tel:+48576113316" class="mobile-nav-call phone-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span data-i18n="mobileNavCallCta">Zadzwoń teraz</span>
+              </a>
             </div>
 
             <div class="mobile-nav-quick">
-              <button type="button" class="mobile-nav-sec-btn" id="mobileNavPrintedMenuBtn" data-i18n="btnOriginalMenu">Karta menu (Foto)</button>
-              <a href="https://share.google/1MwYUzSfKmWTu60fy" target="_blank" rel="noopener noreferrer" class="mobile-nav-sec-btn" data-i18n="mobileNavGmaps">Pokaż trasę w Google Maps ↗</a>
+              <button type="button" class="mobile-nav-sec-btn" id="mobileNavPrintedMenuBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg>
+                <span data-i18n="mobileNavPrintedMenu">Drukowane menu</span>
+              </button>
+              <a href="https://share.google/1MwYUzSfKmWTu60fy" target="_blank" rel="noopener noreferrer" class="mobile-nav-sec-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                <span data-i18n="mobileNavRoute">Trasa</span>
+              </a>
             </div>
           </div>
         </aside>
@@ -891,6 +973,8 @@
     renderB2bCalculator();
     renderLocationsSection();
     renderReviewsSection();
+    renderCartDrawer();
+    renderCheckoutPage();
     updateCartBadges();
   }
 
@@ -923,6 +1007,7 @@
     savePersistedState();
     renderBranchContext();
     renderLocationsSection();
+    renderCheckoutPage();
     updateCartBadges();
 
     const msg =
@@ -1939,6 +2024,7 @@
     savePersistedState();
     updateCartBadges();
     renderCartDrawer();
+    renderCheckoutPage();
   }
 
   function getCartTotals() {
@@ -1958,6 +2044,57 @@
     if (mobileCount) mobileCount.textContent = String(totalCount);
   }
 
+  function getCartItemThumb(item) {
+    if (!item) return "img/hero-main.jpg";
+    if (item.productId === "lunch-dnia-33") {
+      return "img/lunch-combo.png";
+    }
+    const prod = DATA.products.find((p) => p.id === item.productId);
+    if (prod && prod.image) {
+      return prod.image;
+    }
+    const categoryFallback = {
+      zupa: "img/clean/barszcz.jpg",
+      pierogi: "img/clean/pierogi-ziemniaki.jpg",
+      pielmieni: "img/clean/pielmieni.jpg",
+      czebureki: "img/clean/czebureki.jpg",
+      chinkali: "img/clean/chinkali-mieso.jpg",
+      nalesniki: "img/clean/racuchy.jpg",
+      "dania-miesne": "img/clean/zeberka.jpg",
+      salatki: "img/clean/kopytka.jpg",
+      "dodatki-obiadowe": "img/clean/placki.jpg",
+      surowki: "img/clean/kalafior.jpg",
+      "sosy-napoje": "img/hero-borscht.jpg"
+    };
+    return (prod && categoryFallback[prod.categoryId]) || "img/hero-main.jpg";
+  }
+
+  function splitCheckoutItemTitle(item, lang) {
+    const rawName = (item.name && item.name[lang]) || "";
+    const defaultMeta = lang === "pl" ? "1 porcja" : "1 порція";
+
+    if (item.productId === "lunch-dnia-33") {
+      const parenMatch = rawName.match(/^[^(]+\((.+)\)$/);
+      return {
+        title: lang === "pl" ? "Lunch Dnia · Zestaw 4 dań" : "Ланч Дня · Комплекс 4 страви",
+        meta: parenMatch ? parenMatch[1].trim() : defaultMeta
+      };
+    }
+
+    const match = rawName.match(/^(.+?)\s*\(([^)]+)\)$/);
+    if (match) {
+      return {
+        title: match[1].trim(),
+        meta: match[2].trim()
+      };
+    }
+
+    return {
+      title: rawName,
+      meta: defaultMeta
+    };
+  }
+
   function renderCartDrawer() {
     const bodyEl = document.getElementById("cartDrawerBody");
     const footerEl = document.getElementById("cartDrawerFooter");
@@ -1966,7 +2103,7 @@
     const branch = getActiveBranch();
     const { totalCount, subtotalGrosze } = getCartTotals();
 
-    if (state.lastSubmittedOrder) {
+    if (state.lastSubmittedOrder && totalCount === 0) {
       const ord = state.lastSubmittedOrder;
       bodyEl.innerHTML = `
         <div style="background:var(--accent-dill-bg);border:1px solid var(--accent-dill);border-radius:var(--radius-card);padding:20px;">
@@ -1974,14 +2111,14 @@
             ${state.lang === "pl" ? "Zamówienie demonstracyjne przyjęte!" : "Демонстраційне замовлення прийнято!"}
           </div>
           <div style="font-size:0.9rem;color:var(--ink-primary);margin-bottom:12px;">
-            ${state.lang === "pl" ? "Numer zamówienia:" : "Номер замовлення:"} <strong class="tabular-nums">#${ord.id}</strong>
+            ${state.lang === "pl" ? "Numer zamówienia:" : "Номер замовлення:"} <strong class="tabular-nums">#${escapeHtml(ord.id)}</strong>
           </div>
           <div style="font-size:0.86rem;color:var(--ink-secondary);display:flex;flex-direction:column;gap:4px;">
-            <div><strong>${state.lang === "pl" ? "Lokal:" : "Локал:"}</strong> ${branch.name[state.lang]}</div>
+            <div><strong>${state.lang === "pl" ? "Lokal:" : "Локал:"}</strong> ${escapeHtml(branch.name[state.lang])}</div>
             <div><strong>${state.lang === "pl" ? "Odbiór:" : "Отримання:"}</strong> ${ord.fulfillmentType === "PICKUP" ? I18N[state.lang].fulfillmentPickup : I18N[state.lang].fulfillmentDelivery}</div>
-            <div><strong>${state.lang === "pl" ? "Klient:" : "Клієнт:"}</strong> ${ord.customerName} (${ord.phone})</div>
+            <div><strong>${state.lang === "pl" ? "Klient:" : "Клієнт:"}</strong> ${escapeHtml(ord.customerName)} (${escapeHtml(ord.phone)})</div>
             <div><strong>${state.lang === "pl" ? "Suma:" : "Сума:"}</strong> ${formatPln(ord.totalGrosze, true)}</div>
-            <div><strong>Status:</strong> NEW → ACCEPTED (Widoczne w Panelu Admin DEMO)</div>
+            <div><strong>Status:</strong> NEW → ACCEPTED (Panel Admin DEMO)</div>
           </div>
         </div>
       `;
@@ -1992,7 +2129,9 @@
       `;
       document.getElementById("newOrderResetBtn").addEventListener("click", () => {
         state.lastSubmittedOrder = null;
-        document.getElementById("cartDrawerBackdrop").classList.remove("open");
+        document.getElementById("cartDrawerBackdrop")?.classList.remove("open");
+        renderCartDrawer();
+        renderCheckoutPage();
       });
       return;
     }
@@ -2025,18 +2164,22 @@
 
     const itemsHtml = state.cart.items
       .map((item) => {
+        const thumbSrc = getCartItemThumb(item);
+        const itemTitle = item.name[state.lang] || "";
         return `
           <div class="cart-item-row">
-            <div style="flex:1;">
-              <div style="font-weight:800;font-size:0.9rem;color:var(--ink-burgundy);">${item.name[state.lang]}</div>
-              <div class="tabular-nums" style="font-size:0.82rem;color:var(--ink-secondary);">
-                ${formatPln(item.unitPriceGrosze, true)} × ${item.quantity} = <strong>${formatPln(item.unitPriceGrosze * item.quantity, true)}</strong>
+            <img src="${thumbSrc}" alt="${escapeHtml(itemTitle)}" class="cart-item-thumb" width="58" height="48" />
+            <div style="flex:1;min-width:0;">
+              <div style="font-weight:800;font-size:0.9rem;color:var(--ink-burgundy);line-height:1.25;margin-bottom:2px;">${escapeHtml(itemTitle)}</div>
+              <div class="tabular-nums cart-item-price-line">
+                <span style="white-space:nowrap;">${formatPln(item.unitPriceGrosze, true)} × ${item.quantity} =</span>
+                <strong style="white-space:nowrap;color:var(--ink-burgundy);">${formatPln(item.unitPriceGrosze * item.quantity, true)}</strong>
               </div>
             </div>
             <div class="qty-controls">
-              <button type="button" class="qty-btn" data-cart-key="${item.cartKey}" data-delta="-1" aria-label="Zmniejsz ilość">−</button>
+              <button type="button" class="qty-btn" data-cart-key="${escapeHtml(item.cartKey)}" data-delta="-1" aria-label="Zmniejsz ilość">−</button>
               <span class="tabular-nums" style="font-weight:800;min-width:20px;text-align:center;">${item.quantity}</span>
-              <button type="button" class="qty-btn" data-cart-key="${item.cartKey}" data-delta="1" aria-label="Zwiększ ilość">+</button>
+              <button type="button" class="qty-btn" data-cart-key="${escapeHtml(item.cartKey)}" data-delta="1" aria-label="Zwiększ ilość">+</button>
             </div>
           </div>
         `;
@@ -2045,73 +2188,30 @@
 
     bodyEl.innerHTML = `
       <div style="background:var(--bg-parchment-deep);border:1px solid var(--border-warm);border-radius:var(--radius-card);padding:12px 14px;font-size:0.84rem;">
-        <div><strong>${state.lang === "pl" ? "Wybrany lokal:" : "Обраний локал:"}</strong> ${branch.name[state.lang]}</div>
-        <div>${branch.address}</div>
+        <div><strong>${state.lang === "pl" ? "Wybrany lokal:" : "Обраний локал:"}</strong> ${escapeHtml(branch.name[state.lang])}</div>
+        <div>${escapeHtml(branch.address)}</div>
       </div>
 
-      <div style="display:flex;flex-direction:column;gap:8px;">
+      <div style="display:flex;flex-direction:column;gap:10px;">
         ${itemsHtml}
       </div>
-
-      <form id="guestCheckoutForm" style="background:var(--bg-card);border:1px solid var(--border-warm);border-radius:var(--radius-card);padding:16px;margin-top:6px;" novalidate>
-        <h3 style="font-family:var(--font-stamp-display);font-size:0.96rem;color:var(--ink-burgundy);margin-bottom:12px;">
-          ${state.lang === "pl" ? "Dane odbioru (Zamówienie gościa bez rejestracji)" : "Дані отримання (Гостьове замовлення без реєстрації)"}
-        </h3>
-
-        <div class="form-field">
-          <label for="chkFulfillment">${state.lang === "pl" ? "Sposób otrzymania zamówienia" : "Спосіб отримання"}</label>
-          <select id="chkFulfillment" class="form-input">
-            <option value="PICKUP" ${state.fulfillmentType === "PICKUP" ? "selected" : ""}>
-              ${state.lang === "pl" ? "Odbiór osobisty w lokalu (0,00 zł)" : "Самовивіз у локалі (0,00 zł)"}
-            </option>
-            <option value="DELIVERY" ${state.fulfillmentType === "DELIVERY" ? "selected" : ""}>
-              ${state.lang === "pl" ? "Dostawa własnym kurierem Smakota (taryfa w DEMO do potw.)" : "Доставка власним кур'єром Smakota (тариф у DEMO уточн.)"}
-            </option>
-          </select>
-        </div>
-
-        <div class="form-field">
-          <label for="chkName">${state.lang === "pl" ? "Imię / Nazwa firmy lub budowy *" : "Ім'я / Назва компанії або будови *"}</label>
-          <input type="text" id="chkName" class="form-input" required placeholder="${state.lang === "pl" ? "Np. Jan Kowalski" : "Напр. Іван Ковальський"}" />
-        </div>
-
-        <div class="form-field">
-          <label for="chkPhone">${state.lang === "pl" ? "Telefon kontaktowy *" : "Контактний телефон *"}</label>
-          <input type="tel" id="chkPhone" class="form-input" required placeholder="+48 500 000 000" />
-          <div class="form-error" id="chkPhoneError" style="display:none;"></div>
-        </div>
-
-        <div class="form-field" id="chkAddressWrap" style="display:${state.fulfillmentType === "DELIVERY" ? "flex" : "none"};">
-          <label for="chkAddress">${state.lang === "pl" ? "Adres dostawy w Warszawie (ulica, numer, kod) *" : "Адреса доставки у Варшаві (вулиця, номер, індекс) *"}</label>
-          <input type="text" id="chkAddress" class="form-input" placeholder="${state.lang === "pl" ? "Np. ul. Wojciechowskiego 40, 02-495 Warszawa" : "Напр. ul. Wojciechowskiego 40, 02-495 Warszawa"}" />
-        </div>
-
-        <div class="form-field">
-          <label for="chkPayment">${state.lang === "pl" ? "Preferowany sposób płatności (DEMO)" : "Бажаний спосіб оплати (DEMO)"}</label>
-          <select id="chkPayment" class="form-input">
-            <option value="AT_PICKUP">${state.lang === "pl" ? "Gotówka lub karta przy odbiorze / u kuriera" : "Готівка або картка при отриманні / кур'єру"}</option>
-            <option value="BLIK_DEMO">${state.lang === "pl" ? "BLIK / Płatność online (po wyborze operatora w Production)" : "BLIK / Онлайн-оплата (після вибору провайдера в Production)"}</option>
-          </select>
-        </div>
-
-        <div class="form-field">
-          <label for="chkNotes">${state.lang === "pl" ? "Komentarz dla kuchni lub kuriera" : "Коментар для кухні або кур'єра"}</label>
-          <textarea id="chkNotes" class="form-input" rows="2" maxlength="250" placeholder="${state.lang === "pl" ? "Np. odbiór za 30 minut / kod do domofonu..." : "Напр. заберу через 30 хв / код домофону..."}"></textarea>
-        </div>
-      </form>
     `;
 
     footerEl.innerHTML = `
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px;">
         <span style="font-weight:700;color:var(--ink-secondary);">
-          ${state.lang === "pl" ? "Suma zamówienia (PLN):" : "Сума замовлення (PLN):"}
+          ${state.lang === "pl" ? "Suma częściowa (PLN):" : "Разом (PLN):"}
         </span>
-        <strong class="tabular-nums" style="font-family:var(--font-stamp-display);font-size:1.45rem;color:var(--accent-terracotta);">
+        <strong class="tabular-nums" style="font-family:var(--font-stamp-display);font-size:1.45rem;color:var(--ink-burgundy);">
           ${formatPln(subtotalGrosze, true)}
         </strong>
       </div>
-      <button type="button" class="btn-primary" style="width:100%;" id="submitOrderDemoBtn">
-        ${state.lang === "pl" ? "Wyślij zamówienie (Tryb DEMO)" : "Відправити замовлення (Режим DEMO)"}
+      <a href="checkout.html" class="btn-primary" style="width:100%;" id="goToCheckoutBtn">
+        <span>${state.lang === "pl" ? "Przejdź do zamówienia" : "Оформити замовлення"}</span>
+        <span aria-hidden="true">→</span>
+      </a>
+      <button type="button" class="btn-secondary-outline" style="width:100%;margin-top:8px;padding:10px 16px;" id="continueShoppingBtn">
+        ${state.lang === "pl" ? "Kontynuuj zakupy" : "Продовжити покупки"}
       </button>
     `;
 
@@ -2123,50 +2223,401 @@
       });
     });
 
-    const fulSelect = document.getElementById("chkFulfillment");
-    if (fulSelect) {
-      fulSelect.addEventListener("change", (e) => {
-        state.fulfillmentType = e.target.value;
-        savePersistedState();
-        renderBranchContext();
-        const addrWrap = document.getElementById("chkAddressWrap");
-        if (addrWrap) {
-          addrWrap.style.display = state.fulfillmentType === "DELIVERY" ? "flex" : "none";
+    const goToCheckoutBtn = document.getElementById("goToCheckoutBtn");
+    if (goToCheckoutBtn) {
+      goToCheckoutBtn.addEventListener("click", (e) => {
+        if (!checkBranchActiveForOrder()) {
+          e.preventDefault();
         }
       });
     }
 
-    const submitBtn = document.getElementById("submitOrderDemoBtn");
+    const continueBtn = document.getElementById("continueShoppingBtn");
+    if (continueBtn) {
+      continueBtn.addEventListener("click", () => {
+        document.getElementById("cartDrawerBackdrop")?.classList.remove("open");
+      });
+    }
+  }
+
+  function renderCheckoutPage() {
+    const root = document.getElementById("checkoutContentRoot");
+    if (!root) return;
+
+    const branch = getActiveBranch();
+    const { totalCount, subtotalGrosze } = getCartTotals();
+    const isPl = state.lang === "pl";
+    const draft = state.checkoutDraft;
+
+    if (state.lastSubmittedOrder && totalCount === 0) {
+      const ord = state.lastSubmittedOrder;
+      const isPickup = ord.fulfillmentType === "PICKUP";
+      const payLabel =
+        ord.paymentMethod === "BLIK_DEMO"
+          ? (isPl ? "BLIK / Płatność online (DEMO)" : "Оплата онлайн (BLIK · DEMO)")
+          : (isPl ? "Płatność przy odbiorze (gotówka / karta)" : "Оплата при отриманні (готівка / картка)");
+
+      root.innerHTML = `
+        <div class="co-status-card">
+          <div class="co-status-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+          <h2 class="co-card-title" style="font-size:1.7rem;margin-bottom:8px;">
+            ${isPl ? "Zamówienie zostało przyjęte (DEMO)!" : "Замовлення прийнято (DEMO)!"}
+          </h2>
+          <p style="font-size:0.96rem;color:var(--ink-secondary);max-width:46ch;margin:0 auto;">
+            ${
+              isPl
+                ? `Dziękujemy! Numer Twojego zamówienia to <strong class="tabular-nums" style="color:var(--ink-burgundy);">#${escapeHtml(ord.id)}</strong>. Lokal otrzymał zgłoszenie.`
+                : `Дякуємо! Номер вашого замовлення: <strong class="tabular-nums" style="color:var(--ink-burgundy);">#${escapeHtml(ord.id)}</strong>. Локал отримав заявку.`
+            }
+          </p>
+
+          <div class="co-status-details">
+            <div><strong>${isPl ? "Lokal:" : "Локал:"}</strong> ${escapeHtml(branch.name[state.lang])}</div>
+            <div><strong>${isPl ? "Sposób odbioru:" : "Спосіб отримання:"}</strong> ${isPickup ? (isPl ? "Odbiór osobisty (0,00 zł)" : "Самовивіз (0,00 zł)") : (isPl ? "Dostawa kurierem" : "Доставка кур'єром")}</div>
+            <div><strong>${isPl ? "Adres / punkt:" : "Адреса / локал:"}</strong> ${escapeHtml(ord.address)}</div>
+            <div><strong>${isPl ? "Klient:" : "Клієнт:"}</strong> ${escapeHtml(ord.customerName)} · ${escapeHtml(ord.phone)}</div>
+            <div><strong>${isPl ? "Płatność:" : "Оплата:"}</strong> ${escapeHtml(payLabel)}</div>
+            <div><strong>${isPl ? "Dania:" : "Страви:"}</strong> ${escapeHtml(ord.itemsSummary)}</div>
+            <div><strong>${isPl ? "Do zapłaty (dania):" : "До сплати (страви):"}</strong> <span class="tabular-nums" style="color:var(--ink-burgundy);font-weight:800;">${formatPln(ord.totalGrosze, true)}</span>${!isPickup ? (isPl ? " (+ koszt dostawy wg taryfy)" : " (+ вартість доставки за тарифом)") : ""}</div>
+          </div>
+
+          <div class="co-status-actions">
+            <a href="menu.html" class="btn-primary">${isPl ? "Wróć do menu →" : "Повернутися до меню →"}</a>
+            <button type="button" class="btn-secondary-outline" id="coClearOrderStatusBtn">${isPl ? "Nowe zamówienie" : "Нове замовлення"}</button>
+          </div>
+        </div>
+      `;
+
+      document.getElementById("coClearOrderStatusBtn")?.addEventListener("click", () => {
+        state.lastSubmittedOrder = null;
+        renderCheckoutPage();
+      });
+      return;
+    }
+
+    if (totalCount === 0) {
+      root.innerHTML = `
+        <div class="co-status-card">
+          <div class="co-status-icon co-status-icon--empty" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+          </div>
+          <h2 class="co-card-title" style="font-size:1.6rem;margin-bottom:8px;">
+            ${isPl ? "Twój koszyk jest pusty" : "Ваш кошик порожній"}
+          </h2>
+          <p style="font-size:0.95rem;color:var(--ink-secondary);max-width:44ch;margin:0 auto 24px;">
+            ${
+              isPl
+                ? "Wybierz domowe pierogi, barszcz ukraiński, czebureki lub Lunch Dnia za 33 zł z naszej karty menu, aby przejść do zamówienia."
+                : "Додайте домашні вареники, український борщ, чебуреки чи Ланч Дня за 33 zł з нашого меню, щоб оформити замовлення."
+            }
+          </p>
+          <div class="co-status-actions">
+            <a href="menu.html" class="btn-primary">${isPl ? "Przejdź do menu →" : "Перейти до меню →"}</a>
+            <a href="index.html#lunch-builder" class="btn-secondary-outline">${isPl ? "Lunch Dnia (33 zł)" : "Ланч Дня (33 zł)"}</a>
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    const itemsHtml = state.cart.items
+      .map((item) => {
+        const thumbSrc = getCartItemThumb(item);
+        const { title, meta } = splitCheckoutItemTitle(item, state.lang);
+        return `
+          <div class="co-item-row">
+            <img src="${thumbSrc}" alt="${escapeHtml(title)}" class="co-item-thumb" width="78" height="62" />
+            <div class="co-item-info">
+              <div class="co-item-title">${escapeHtml(title)}</div>
+              <div class="co-item-meta">${escapeHtml(meta)}</div>
+              <div class="co-qty-pill">
+                <button type="button" class="co-qty-btn" data-cart-key="${escapeHtml(item.cartKey)}" data-delta="-1" aria-label="Zmniejsz ilość">−</button>
+                <span class="co-qty-val tabular-nums">${item.quantity}</span>
+                <button type="button" class="co-qty-btn" data-cart-key="${escapeHtml(item.cartKey)}" data-delta="1" aria-label="Zwiększ ilość">+</button>
+              </div>
+            </div>
+            <div class="co-item-price tabular-nums">${formatPln(item.unitPriceGrosze * item.quantity, true)}</div>
+          </div>
+        `;
+      })
+      .join("");
+
+    const isDelivery = state.fulfillmentType === "DELIVERY";
+    const fulfillmentDetailsHtml = isDelivery
+      ? `
+        <div class="co-addr-grid">
+          <div class="co-input-wrap">
+            <span class="co-input-icon" aria-hidden="true">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <input type="text" id="coAddress" class="co-input co-input--icon" value="${escapeHtml(draft.address)}" placeholder="${isPl ? "Adres dostawy *" : "Адреса доставки *"}" />
+          </div>
+          <div class="co-input-wrap">
+            <input type="text" id="coApartment" class="co-input" value="${escapeHtml(draft.apartment)}" placeholder="${isPl ? "Mieszkanie / biuro" : "Квартира / офіс"}" />
+          </div>
+        </div>
+      `
+      : `
+        <div class="co-pickup-box">
+          <div class="co-pickup-info">
+            <div class="co-pickup-name">${escapeHtml(branch.name[state.lang])}</div>
+            <div>${escapeHtml(branch.address)} · ${escapeHtml(branch.hours[state.lang])}</div>
+            <div>${isPl ? "Gotowe do odbioru na miejscu bez kosztów dostawy." : "Приготуємо до самовивозу без додаткової оплати."}</div>
+          </div>
+          <a href="locations.html" class="co-pickup-link">${isPl ? "Sprawdź lokal →" : "Деталі локалу →"}</a>
+        </div>
+      `;
+
+    const deliveryFeeText = isDelivery
+      ? (isPl ? "Wg taryfy (DEMO)" : "За тарифом (DEMO)")
+      : "0,00 zł";
+
+    root.innerHTML = `
+      <div class="co-layout-grid">
+        <div class="co-left-col">
+          <!-- Card 1: Dane kontaktowe -->
+          <section class="co-card" aria-labelledby="coContactHeading">
+            <h2 class="co-card-title" id="coContactHeading">${isPl ? "Dane kontaktowe" : "Контактні дані"}</h2>
+            <div class="co-input-grid-2">
+              <div class="co-input-wrap">
+                <span class="co-input-icon" aria-hidden="true">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </span>
+                <input type="text" id="coName" class="co-input co-input--icon" required value="${escapeHtml(draft.name)}" placeholder="${isPl ? "Imię *" : "Ваше ім'я *"}" />
+              </div>
+              <div class="co-input-wrap">
+                <span class="co-input-icon" aria-hidden="true">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </span>
+                <input type="tel" id="coPhone" class="co-input co-input--icon" required value="${escapeHtml(draft.phone)}" placeholder="${isPl ? "Numer telefonu *" : "Номер телефону *"}" />
+              </div>
+            </div>
+            <div class="co-input-wrap">
+              <span class="co-input-icon" aria-hidden="true">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </span>
+              <input type="email" id="coEmail" class="co-input co-input--icon" value="${escapeHtml(draft.email)}" placeholder="${isPl ? "E-mail (opcjonalnie)" : "E-mail (необов'язково)"}" />
+            </div>
+          </section>
+
+          <!-- Card 2: Sposób odbioru -->
+          <section class="co-card" aria-labelledby="coFulfillmentHeading">
+            <h2 class="co-card-title" id="coFulfillmentHeading">${isPl ? "Sposób odbioru" : "Спосіб отримання"}</h2>
+            <div class="co-fulfillment-grid" role="radiogroup" aria-label="${isPl ? "Sposób odbioru" : "Спосіб отримання"}">
+              <button type="button" class="co-choice-card ${isDelivery ? "active" : ""}" data-co-fulfillment="DELIVERY" role="radio" aria-checked="${isDelivery}">
+                <span class="co-radio-dot" aria-hidden="true"></span>
+                <span class="co-choice-icon" aria-hidden="true">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="18.5" cy="17.5" r="2.5"/><circle cx="5.5" cy="17.5" r="2.5"/><path d="M8 17.5h7"/><path d="M15 6h3l2 5.5v4"/><path d="M12 6H9l-1 5H4.5L3 14.5"/><path d="M13 11h5"/></svg>
+                </span>
+                <span class="co-choice-text">
+                  <span class="co-choice-title">${isPl ? "Dostawa" : "Доставка"}</span>
+                  <span class="co-choice-sub">${isPl ? "Dowieziemy pod wskazany adres" : "Привеземо замовлення за вашою адресою"}</span>
+                </span>
+              </button>
+
+              <button type="button" class="co-choice-card ${!isDelivery ? "active" : ""}" data-co-fulfillment="PICKUP" role="radio" aria-checked="${!isDelivery}">
+                <span class="co-radio-dot" aria-hidden="true"></span>
+                <span class="co-choice-icon" aria-hidden="true">
+                  <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </span>
+                <span class="co-choice-text">
+                  <span class="co-choice-title">${isPl ? "Odbiór osobisty" : "Самовивіз"}</span>
+                  <span class="co-choice-sub">${isPl ? "Odbierz w wybranym lokalu (0,00 zł)" : "Заберіть у зручному для вас локалі (0,00 zł)"}</span>
+                </span>
+              </button>
+            </div>
+
+            ${fulfillmentDetailsHtml}
+
+            <div class="co-notes-row">
+              <input type="text" id="coNotes" class="co-input" maxlength="250" value="${escapeHtml(draft.notes)}" placeholder="${isPl ? "Komentarz dla kuchni lub kuriera (opcjonalnie)" : "Коментар для кухні або кур'єра (необов'язково)"}" />
+            </div>
+          </section>
+
+          <!-- Card 3: Płatność -->
+          <section class="co-card" aria-labelledby="coPaymentHeading">
+            <h2 class="co-card-title" id="coPaymentHeading">${isPl ? "Płatność" : "Оплата"}</h2>
+            <div class="co-payment-list" role="radiogroup" aria-label="${isPl ? "Płatność" : "Оплата"}">
+              <button type="button" class="co-payment-row ${state.paymentMethod === "BLIK_DEMO" ? "active" : ""}" data-co-payment="BLIK_DEMO" role="radio" aria-checked="${state.paymentMethod === "BLIK_DEMO"}">
+                <span class="co-radio-dot" aria-hidden="true"></span>
+                <span class="co-choice-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                </span>
+                <span class="co-payment-label">${isPl ? "BLIK / Płatność online (DEMO)" : "Оплата онлайн (BLIK · DEMO)"}</span>
+              </button>
+
+              <button type="button" class="co-payment-row ${state.paymentMethod === "AT_PICKUP" ? "active" : ""}" data-co-payment="AT_PICKUP" role="radio" aria-checked="${state.paymentMethod === "AT_PICKUP"}">
+                <span class="co-radio-dot" aria-hidden="true"></span>
+                <span class="co-choice-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.85" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="12" x="2" y="6" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></svg>
+                </span>
+                <span class="co-payment-label">${isPl ? "Płatność przy odbiorze (gotówka / karta)" : "Оплата при отриманні (готівка / картка)"}</span>
+              </button>
+            </div>
+          </section>
+        </div>
+
+        <!-- Right Sticky Column: Twoje zamówienie -->
+        <aside class="co-summary-card" aria-labelledby="coSummaryHeading">
+          <div class="co-summary-head">
+            <h2 class="co-card-title" id="coSummaryHeading">${isPl ? `Twoje zamówienie (${totalCount})` : `Ваше замовлення (${totalCount})`}</h2>
+            <a href="menu.html" class="co-change-link">${isPl ? "Zmień" : "Змінити"}</a>
+          </div>
+
+          <div class="co-items-list">
+            ${itemsHtml}
+          </div>
+
+          <div class="co-divider"></div>
+
+          <div class="co-totals-block">
+            <div class="co-total-row">
+              <span>${isPl ? "Razem" : "Разом"}</span>
+              <strong class="tabular-nums">${formatPln(subtotalGrosze, true)}</strong>
+            </div>
+            <div class="co-total-row">
+              <span>${isPl ? "Dostawa" : "Доставка"}</span>
+              <span class="co-total-fee-note tabular-nums">${deliveryFeeText}</span>
+            </div>
+          </div>
+
+          <div class="co-divider"></div>
+
+          <div class="co-grand-row">
+            <span class="co-grand-label">${isPl ? "Do zapłaty" : "До сплати"}</span>
+            <span class="co-grand-val tabular-nums">${formatPln(subtotalGrosze, true)}</span>
+          </div>
+          ${
+            isDelivery
+              ? `<div class="co-delivery-disclaimer">${isPl ? "+ koszt dostawy wg taryfy kuriera (DEMO)" : "+ вартість доставки уточнюється (DEMO)"}</div>`
+              : ""
+          }
+
+          <div class="co-field-error" id="coFormError" style="display:none;" role="alert"></div>
+
+          <button type="button" class="co-submit-btn" id="coSubmitOrderBtn">
+            <span>${isPl ? "Złóż zamówienie" : "Оформити замовлення"}</span>
+            <span aria-hidden="true">→</span>
+          </button>
+        </aside>
+      </div>
+    `;
+
+    const draftInputs = [
+      ["coName", "name"],
+      ["coPhone", "phone"],
+      ["coEmail", "email"],
+      ["coAddress", "address"],
+      ["coApartment", "apartment"],
+      ["coNotes", "notes"]
+    ];
+    draftInputs.forEach(([elId, field]) => {
+      const el = document.getElementById(elId);
+      if (el) {
+        el.addEventListener("input", (e) => {
+          state.checkoutDraft[field] = e.target.value;
+          el.classList.remove("is-invalid");
+          const errEl = document.getElementById("coFormError");
+          if (errEl) errEl.style.display = "none";
+        });
+      }
+    });
+
+    root.querySelectorAll("[data-co-fulfillment]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const nextType = btn.getAttribute("data-co-fulfillment");
+        if (nextType === "DELIVERY" || nextType === "PICKUP") {
+          state.fulfillmentType = nextType;
+          savePersistedState();
+          renderBranchContext();
+          renderCheckoutPage();
+        }
+      });
+    });
+
+    root.querySelectorAll("[data-co-payment]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const nextMethod = btn.getAttribute("data-co-payment");
+        if (nextMethod === "BLIK_DEMO" || nextMethod === "AT_PICKUP") {
+          state.paymentMethod = nextMethod;
+          savePersistedState();
+          renderCheckoutPage();
+        }
+      });
+    });
+
+    root.querySelectorAll("[data-cart-key]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const key = btn.getAttribute("data-cart-key");
+        const delta = parseInt(btn.getAttribute("data-delta"), 10);
+        updateCartItemQty(key, delta);
+      });
+    });
+
+    const submitBtn = document.getElementById("coSubmitOrderBtn");
     if (submitBtn) {
       submitBtn.addEventListener("click", () => {
         if (state.isSubmittingOrder) return;
         if (!checkBranchActiveForOrder()) return;
 
-        const nameVal = (document.getElementById("chkName")?.value || "").trim();
-        const phoneVal = (document.getElementById("chkPhone")?.value || "").trim();
-        const addrVal = (document.getElementById("chkAddress")?.value || "").trim();
-        const errEl = document.getElementById("chkPhoneError");
+        const nameEl = document.getElementById("coName");
+        const phoneEl = document.getElementById("coPhone");
+        const emailEl = document.getElementById("coEmail");
+        const addrEl = document.getElementById("coAddress");
+        const errEl = document.getElementById("coFormError");
+
+        const showFormError = (msg, targetEl) => {
+          if (errEl) {
+            errEl.textContent = msg;
+            errEl.style.display = "block";
+          }
+          if (targetEl) {
+            targetEl.classList.add("is-invalid");
+            targetEl.focus();
+          }
+        };
+
+        const nameVal = (state.checkoutDraft.name || "").trim();
+        const phoneVal = (state.checkoutDraft.phone || "").trim();
+        const emailVal = (state.checkoutDraft.email || "").trim();
+        const addrVal = (state.checkoutDraft.address || "").trim();
+        const aptVal = (state.checkoutDraft.apartment || "").trim();
+        const notesVal = (state.checkoutDraft.notes || "").trim();
+
+        if (!nameVal) {
+          showFormError(
+            isPl ? "Podaj swoje imię przed złożeniem zamówienia." : "Вкажіть ваше ім'я перед оформленням замовлення.",
+            nameEl
+          );
+          return;
+        }
 
         const digitsOnly = phoneVal.replace(/\D/g, "");
-        if (!nameVal || digitsOnly.length < 9) {
-          if (errEl) {
-            errEl.style.display = "block";
-            errEl.textContent =
-              state.lang === "pl"
-                ? "Podaj imię oraz poprawny numer telefonu (min. 9 cyfr): wymagane przed wysłaniem (TC-14)."
-                : "Вкажіть ім'я та коректний номер телефону (мін. 9 цифр): обов'язкове поле (TC-14).";
-          }
+        if (digitsOnly.length < 9) {
+          showFormError(
+            isPl
+              ? "Podaj poprawny numer telefonu (min. 9 cyfr): wymagane przed wysłaniem (TC-14)."
+              : "Вкажіть коректний номер телефону (мін. 9 цифр): обов'язкове поле (TC-14).",
+            phoneEl
+          );
+          return;
+        }
+
+        if (emailVal && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailVal)) {
+          showFormError(
+            isPl ? "Podaj poprawny adres e-mail lub pozostaw pole puste." : "Вкажіть коректний e-mail або залиште поле порожнім.",
+            emailEl
+          );
           return;
         }
 
         if (state.fulfillmentType === "DELIVERY" && addrVal.length < 5) {
-          if (errEl) {
-            errEl.style.display = "block";
-            errEl.textContent =
-              state.lang === "pl"
-                ? "Podaj dokładny adres dostawy dla kuriera."
-                : "Вкажіть адресу доставки для кур'єра.";
-          }
+          showFormError(
+            isPl ? "Podaj dokładny adres dostawy dla kuriera." : "Вкажіть точну адресу доставки для кур'єра.",
+            addrEl
+          );
           return;
         }
 
@@ -2175,16 +2626,19 @@
         const summaryStr = state.cart.items
           .map((i) => `${i.quantity}× ${i.name[state.lang]}`)
           .join(", ");
+        const fullAddress = aptVal ? `${addrVal}, ${aptVal}` : addrVal;
 
         const newOrder = {
           id: orderId,
           branchId: state.selectedBranchId,
           customerName: nameVal,
           phone: phoneVal,
+          email: emailVal,
           fulfillmentType: state.fulfillmentType,
-          address: state.fulfillmentType === "DELIVERY" ? addrVal : "Odbiór w lokalu",
+          address: state.fulfillmentType === "DELIVERY" ? fullAddress : "Odbiór w lokalu",
+          notes: notesVal,
           status: "NEW",
-          paymentMethod: document.getElementById("chkPayment")?.value || "AT_PICKUP",
+          paymentMethod: state.paymentMethod,
           totalGrosze: subtotalGrosze,
           createdAt: new Date().toLocaleTimeString("pl-PL", {
             hour: "2-digit",
@@ -2197,13 +2651,16 @@
         state.orders.unshift(newOrder);
         state.lastSubmittedOrder = newOrder;
         state.cart.items = [];
+        state.checkoutDraft.notes = "";
         state.isSubmittingOrder = false;
 
         savePersistedState();
         updateCartBadges();
         renderCartDrawer();
+        renderCheckoutPage();
+        window.scrollTo({ top: 0, behavior: "smooth" });
         showToast(
-          state.lang === "pl"
+          isPl
             ? `Zamówienie #${orderId} przekazane do lokalu!`
             : `Замовлення #${orderId} передано в локал!`
         );
